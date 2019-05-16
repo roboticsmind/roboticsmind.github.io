@@ -1,9 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "roboticsmind.github.io",
   "homepage": "roboticsmind.github.io",
   "version": "0.0.1",
   "description": "A homepage for RoboticsMind. ",
   "repository": "git@github.com:roboticsmind/roboticsmind.github.io.git",
+=======
+  "name": "uilab-github.github.io",
+  "version": "1.0.0",
+  "description": "A homepage for KAIST U&I Lab. ",
+  "repository": "git@github.com:uilab-github/uilab-github.github.io.git",
+>>>>>>> parent of 84e0cd0... Updates
   "author": "Jeongmin Byun <jmbyun91@gmail.com>",
   "license": "MIT",
   "engines": {
@@ -12,15 +19,22 @@
   },
   "scripts": {
     "start": "node ./scripts/gulp.js",
+<<<<<<< HEAD
     "build": "node ./scripts/gulp.js build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -b master -d build"
+=======
+    "build": "node ./scripts/gulp.js build"
+>>>>>>> parent of 84e0cd0... Updates
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "babel-runtime": "^6.23.0",
     "classnames": "^2.2.5",
+<<<<<<< HEAD
     "gh-pages": "^2.0.1",
+=======
+>>>>>>> parent of 84e0cd0... Updates
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.2.1",
     "react": "^15.6.1",

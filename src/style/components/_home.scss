@@ -1,0 +1,52 @@
+
+.c-home {
+  &__announcement {
+    background-color: color('black');
+    margin-bottom: 14px;
+    padding: 12px 12px;
+    font-size: 14px;
+    color: color('white');
+    line-height: 1.4em;
+
+    p {
+      padding: 8px 0;
+    }
+    strong {
+      font-weight: $bold;
+    }
+    a {
+      color: color('lime');
+      text-decoration: underline;
+    }
+  }
+
+  &__main-image-container {
+    padding: 5px 0;
+  }
+
+  &__main-image {
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__publications-title {
+    padding: 10px 0;
+    font-size: 18px;
+    color: color('black');
+    font-weight: $bold;
+  }
+
+  &__publications {
+    padding: 10px 0;
+  }
+}
+
+.content .home h2 {
+	margin: 5px 0 10px 0;
+	padding: 0 0 0 0;
+}
+.content .home h2 img {
+	width: 100%;
+	height: auto;
+}
