@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-class Donate extends Component {
+export default class Donate extends Component {
     render(){
         return (
-            <p>toto</p>
+            <p>To come ...</p>
         )
     }
 }

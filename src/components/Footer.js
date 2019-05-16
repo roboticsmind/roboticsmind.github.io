@@ -19,6 +19,16 @@ export default class Footer extends Component {
             >
               Admin
             </a>
+            <br/>
+            <div className="c-footer__links">
+              <a
+                className="c-footer__link"
+                href="http://uilab.kr/"
+                target="_blank"
+              >
+                Credits: U&I Lab.
+              </a>
+            </div>
           </div>
         </div>
       </footer>

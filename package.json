@@ -1,16 +1,9 @@
 {
-<<<<<<< HEAD
   "name": "roboticsmind.github.io",
   "homepage": "roboticsmind.github.io",
   "version": "0.0.1",
   "description": "A homepage for RoboticsMind. ",
   "repository": "git@github.com:roboticsmind/roboticsmind.github.io.git",
-=======
-  "name": "uilab-github.github.io",
-  "version": "1.0.0",
-  "description": "A homepage for KAIST U&I Lab. ",
-  "repository": "git@github.com:uilab-github/uilab-github.github.io.git",
->>>>>>> parent of 84e0cd0... Updates
   "author": "Jeongmin Byun <jmbyun91@gmail.com>",
   "license": "MIT",
   "engines": {
@@ -19,33 +12,30 @@
   },
   "scripts": {
     "start": "node ./scripts/gulp.js",
-<<<<<<< HEAD
     "build": "node ./scripts/gulp.js build",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build"
-=======
-    "build": "node ./scripts/gulp.js build"
->>>>>>> parent of 84e0cd0... Updates
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "babel-polyfill": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "babel-runtime": "^6.23.0",
     "classnames": "^2.2.5",
-<<<<<<< HEAD
-    "gh-pages": "^2.0.1",
-=======
->>>>>>> parent of 84e0cd0... Updates
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.2.1",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "leaflet": "^1.5.1",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
     "react-google-map": "^3.0.1",
     "react-google-maps-loader": "^3.0.1",
-    "react-router-dom": "^4.1.2"
+    "react-leaflet": "^2.3.0",
+    "react-router-dom": "^4.1.2",
+    "react-social-icons": "^4.1.0"
   },
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
