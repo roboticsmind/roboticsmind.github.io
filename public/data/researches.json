@@ -94,7 +94,24 @@
     },
     {
       "researches": [
-      ],
+        {
+          "booktitle": "In the LIPN Junior Seminar, Sorbonne Paris Cité, April 18, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Improving Human Activity Recognition with Domain Knowledge Composition",
+          "links": {
+            "PDF": "./public/presentations/junior-seminar-18-04-2019.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In the Renault-LIPN Seminar, Sorbonne Paris Cité, November 28, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Apprentissage à parir des exemples et des modèles du domaine --- Cas des objets connectés",
+          "links": {
+            "PDF": "./public/presentations/renault-seminar-28-11-2018.pdf"
+          },
+          "topics": ["ml"]
+        }      ],
       "title": "Presentations"
     },
     {
