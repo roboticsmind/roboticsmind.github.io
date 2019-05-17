@@ -39,7 +39,7 @@
           "authors": "Aomar Osmani and Massinissa Hamidi",
           "title": "Bayesian Optimization of Neural Architectures for Human Activity Recognition",
           "links": {
-            "PDF": "https://arxiv.org/abs/",
+            "PDF": "https://www.springer.com/gp/book/9783030130008",
             "Code": "https://github.com/hamidimassinissa/hasca-shl"
           },
           "topics": ["ml", "har"]
