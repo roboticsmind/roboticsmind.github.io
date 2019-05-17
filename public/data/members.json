@@ -1,11 +1,35 @@
 [
   {
     "members":[
+
+      {
+        "attributes":[
+          [
+            "occupation",
+            "Senior Lecturer, Sorbonne Paris Cité"
+          ]
+        ],
+        "image":"/public/images/members/aomarOsmani.jpg",
+        "name":"Aomar Osmani",
+        "links":[
+          [
+            "Homepage",
+            "https://lipn.univ-paris13.fr/~osmani"
+          ]
+        ],
+        "email":"ao@lipn.univ-paris13.fr"
+      }
+    ],
+    "title":"Chair"
+  },
+  {
+    "members":[
+
       {
         "attributes":[
           [
             "education",
-            "Ph.D. candidate in Computer Science, 2020, Sorbone Paris Cité"
+            "Ph.D. candidate in Computer Science, 2020, Sorbonne Paris Cité"
           ],
           [
             "education",

@@ -28,14 +28,14 @@
       "id": "har",
       "title": "Human Activity Recognition",
       "tag": "HAR",
-      "color": "#6f7795"
+      "color": "#7f7785"
     }
   ],
   "categories": [
     {
       "researches": [
         {
-          "booktitle": "To Human Activity Sensing Corpus and Application (HASCA) Book, 2019",
+          "booktitle": "To appear in the Human Activity Sensing Corpus and Application (HASCA) Book, 2019",
           "authors": "Aomar Osmani and Massinissa Hamidi",
           "title": "Bayesian Optimization of Neural Architectures for Human Activity Recognition",
           "links": {
@@ -43,6 +43,46 @@
             "Code": "https://github.com/hamidimassinissa/hasca-shl"
           },
           "topics": ["ml", "har"]
+        },
+        {
+          "booktitle": "In proceedings of the UbiComp/ISWC 2018 Adjunct, Singapore, October 08-12, 2018. ACM 2018",
+          "authors": "Aomar Osmani and Massinissa Hamidi",
+          "title": "Hybrid and Convolutional Neural Networks for Locomotion Recognition",
+          "links": {
+            "PDF": "https://arxiv.org/abs/",
+            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+          },
+          "topics": ["ml", "har"]
+        },
+        {
+          "booktitle": "In 2017 AAAI Fall Symposia, Arlington, Virginia, USA, November 9-11, 2017. AAAI Press 2017",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Abdelghani Chibani",
+          "title": "Platform for Assessment and Monitoring of Infant Comfort",
+          "links": {
+            "PDF": "https://arxiv.org/abs/",
+            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In the 29th IEEE International Conference on Tools with Artificial Intelligence, ICTAI 2017, Boston, MA, USA, November 6-8, 2017. IEEE Computer Society 2017",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Abdelghani Chibani",
+          "title": "Machine Learning Approach for Infant Cry Interpretation",
+          "links": {
+            "PDF": "https://arxiv.org/abs/",
+            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "MSc Thesis, Univ. Paris Diderot, Sorbonne Paris Cité, 2017",
+          "authors": "Massinissa Hamidi",
+          "title": "On the Monitoring of Infant Comfort Using Machine Learning Techniques",
+          "links": {
+            "PDF": "https://arxiv.org/abs/",
+            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+          },
+          "topics": ["ml"]
         }
       ],
       "title": "Publications"
