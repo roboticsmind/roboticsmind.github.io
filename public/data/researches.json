@@ -49,7 +49,7 @@
           "authors": "Aomar Osmani and Massinissa Hamidi",
           "title": "Hybrid and Convolutional Neural Networks for Locomotion Recognition",
           "links": {
-            "PDF": "https://arxiv.org/abs/",
+            "PDF": "https://dl.acm.org/citation.cfm?id=3267520",
             "Code": "https://github.com/hamidimassinissa/hasca-shl"
           },
           "topics": ["ml", "har"]
@@ -59,7 +59,7 @@
           "authors": "Aomar Osmani and Massinissa Hamidi and Abdelghani Chibani",
           "title": "Platform for Assessment and Monitoring of Infant Comfort",
           "links": {
-            "PDF": "https://arxiv.org/abs/",
+            "PDF": "https://aaai.org/ocs/index.php/FSS/FSS17/paper/view/15989/15285",
             "Code": "https://github.com/hamidimassinissa/hasca-shl"
           },
           "topics": ["ml"]
@@ -69,7 +69,7 @@
           "authors": "Aomar Osmani and Massinissa Hamidi and Abdelghani Chibani",
           "title": "Machine Learning Approach for Infant Cry Interpretation",
           "links": {
-            "PDF": "https://arxiv.org/abs/",
+            "PDF": "https://ieeexplore.ieee.org/document/8371941",
             "Code": "https://github.com/hamidimassinissa/hasca-shl"
           },
           "topics": ["ml"]
