@@ -50,7 +50,8 @@
           "title": "Hybrid and Convolutional Neural Networks for Locomotion Recognition",
           "links": {
             "PDF": "https://dl.acm.org/citation.cfm?id=3267520",
-            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+            "Code": "https://github.com/hamidimassinissa/hasca-shl",
+            "Poster": "/public/research/ubicomp-2018/osmani2018hybrid_POSTER.pdf"
           },
           "topics": ["ml", "har"]
         },
