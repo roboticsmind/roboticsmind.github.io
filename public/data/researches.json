@@ -35,7 +35,26 @@
     {
       "researches": [
         {
-          "booktitle": "To appear in the Human Activity Sensing Corpus and Application (HASCA) Book, 2019",
+          "booktitle": "In proceedings of the 28th international joint conference on artificial intelligence, IJCAI 2019",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Salah Bouhouche",
+          "title": "Monitoring of a Dynamic System Based on Autoencoders",
+          "links": {
+            "PDF": "",
+            "Code": "https://github.com/hamidimassinissa/vibration-sae"
+          },
+          "topics": ["ml", "ai"]
+        },
+          "booktitle": "In Deep Learning for Human Activity Recognition workshop @IJCAI, 2019",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Improving Human Activity Recognition with Data Sources Integration",
+          "links": {
+            "PDF": "https://sites.google.com/site/zhangleuestc/deep-learning-for-human-activity-recognition",
+            "Code": "https://github.com/hamidimassinissa/shl-infrastructure"
+          },
+          "topics": ["ml", "har"]
+        },
+        {
+          "booktitle": "In the Human Activity Sensing Corpus and Application (HASCA) Book, 2019",
           "authors": "Aomar Osmani and Massinissa Hamidi",
           "title": "Bayesian Optimization of Neural Architectures for Human Activity Recognition",
           "links": {
@@ -74,7 +93,12 @@
             "Code": "https://github.com/hamidimassinissa/hasca-shl"
           },
           "topics": ["ml"]
-        },
+        }
+     ],
+      "title": "Publications"
+    },
+    {
+      "researches": [
         {
           "booktitle": "MSc Thesis, Univ. Paris Diderot, Sorbonne Paris Cité, 2017",
           "authors": "Massinissa Hamidi",
@@ -85,11 +109,6 @@
           },
           "topics": ["ml"]
         }
-      ],
-      "title": "Publications"
-    },
-    {
-      "researches": [
       ],
       "title": " Manuscripts "
     },
@@ -105,14 +124,26 @@
           "topics": ["ml"]
         },
         {
-          "booktitle": "In the Renault-LIPN Seminar, Sorbonne Paris Cité, November 28, 2019.",
+          "booktitle": "In the Renault-LIPN Seminar, Sorbonne Paris Cité, November 28, 2018.",
           "authors": "Massinissa Hamidi",
           "title": "Apprentissage à parir des exemples et des modèles du domaine --- Cas des objets connectés",
           "links": {
             "PDF": "./public/presentations/renault-seminar-28-11-2018.pdf"
           },
           "topics": ["ml"]
-        }      ],
+        },
+        {
+          "booktitle": "In the 7th scientific day of the doctoral school Galilée, Sorbonne Paris Cité, June 7, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Apprentissage à parir des exemples et des modèles du domaine --- Cas des objets connectés",
+          "links": {
+            "PDF": "./public/presentations/scientific-day-Galilee-07-11-2019_prez.pdf",
+            "Poster": "./public/presentations/scientific-day-Galilee-07-11-2019_poster.pdf"
+          },
+          "topics": ["ml"]
+        }
+
+      ],
       "title": "Presentations"
     },
     {
