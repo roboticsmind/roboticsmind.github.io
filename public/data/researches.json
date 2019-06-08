@@ -44,6 +44,7 @@
           },
           "topics": ["ml", "ai"]
         },
+        {
           "booktitle": "In Deep Learning for Human Activity Recognition workshop @IJCAI, 2019",
           "authors": "Massinissa Hamidi and Aomar Osmani",
           "title": "Improving Human Activity Recognition with Data Sources Integration",
@@ -80,7 +81,7 @@
           "title": "Platform for Assessment and Monitoring of Infant Comfort",
           "links": {
             "PDF": "https://aaai.org/ocs/index.php/FSS/FSS17/paper/view/15989/15285",
-            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+            "Code": "https://github.com/hamidimassinissa/infant-cries-algo-eval"
           },
           "topics": ["ml"]
         },
@@ -90,7 +91,7 @@
           "title": "Machine Learning Approach for Infant Cry Interpretation",
           "links": {
             "PDF": "https://ieeexplore.ieee.org/document/8371941",
-            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+            "Code": "https://github.com/hamidimassinissa/infant-cries-ml"
           },
           "topics": ["ml"]
         }
@@ -104,13 +105,14 @@
           "authors": "Massinissa Hamidi",
           "title": "On the Monitoring of Infant Comfort Using Machine Learning Techniques",
           "links": {
-            "PDF": "https://arxiv.org/abs/",
-            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+            "PDF": "./public/research/misc/massinissa-hamidi-MSc.pdf",
+            "Slides": "./public/research/misc/massinissa-hamidi-MSc-prez.pdf",
+            "Code": "https://github.com/hamidimassinissa/infant-cries-dunstan"
           },
           "topics": ["ml"]
         }
       ],
-      "title": " Manuscripts "
+      "title": " Manuscripts"
     },
     {
       "researches": [
@@ -119,30 +121,29 @@
           "authors": "Massinissa Hamidi",
           "title": "Improving Human Activity Recognition with Domain Knowledge Composition",
           "links": {
-            "PDF": "./public/presentations/junior-seminar-18-04-2019.pdf"
+            "Slides": "./public/presentations/junior-seminar-18-04-2019.pdf"
           },
           "topics": ["ml"]
         },
         {
           "booktitle": "In the Renault-LIPN Seminar, Sorbonne Paris Cité, November 28, 2018.",
           "authors": "Massinissa Hamidi",
-          "title": "Apprentissage à parir des exemples et des modèles du domaine --- Cas des objets connectés",
+          "title": "Apprentissage à partir des exemples et des modèles du domaine dans le cas des objets connectés",
           "links": {
-            "PDF": "./public/presentations/renault-seminar-28-11-2018.pdf"
+            "Slides": "./public/presentations/renault-seminar-28-11-2018.pdf"
           },
           "topics": ["ml"]
         },
         {
           "booktitle": "In the 7th scientific day of the doctoral school Galilée, Sorbonne Paris Cité, June 7, 2019.",
           "authors": "Massinissa Hamidi",
-          "title": "Apprentissage à parir des exemples et des modèles du domaine --- Cas des objets connectés",
+          "title": "Apprentissage à partir des exemples et des modèles du domaine dans le cas des objets connectés",
           "links": {
-            "PDF": "./public/presentations/scientific-day-Galilee-07-11-2019_prez.pdf",
-            "Poster": "./public/presentations/scientific-day-Galilee-07-11-2019_poster.pdf"
+            "Slides": "./public/presentations/scientific-day-Galilee-07-06-2019-prez.pdf",
+            "Poster": "./public/presentations/scientific-day-Galilee-07-06-2019-poster.pdf"
           },
           "topics": ["ml"]
         }
-
       ],
       "title": "Presentations"
     },
