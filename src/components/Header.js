@@ -39,6 +39,13 @@ export default class Header extends Component {
             </Link>
             <Link
               className="c-header__menu-item"
+              to="/teaching"
+            >
+              Teaching 
+            </Link>
+
+            <Link
+              className="c-header__menu-item"
               to="/partners"
             >
               Partners

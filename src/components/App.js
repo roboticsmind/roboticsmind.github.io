@@ -7,6 +7,7 @@ import Home from './Home';
 import Members from './Members';
 import NotFound from './NotFound';
 import Research from './Research';
+import Teaching from './Teaching';
 import Partners from './Partners';
 import Donate from './Donate';
 import Links from './Links';
@@ -23,6 +24,7 @@ export default class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/members" component={Members} />
             <Route path="/research" component={Research} />
+            <Route path="/teaching" component={Teaching} />
             <Route path="/partners" component={Partners} />
             <Route path="/donate" component={Donate} />
             <Route path="/links" component={Links} />
