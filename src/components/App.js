@@ -13,6 +13,9 @@ import Donate from './Donate';
 import Links from './Links';
 import LocationTracker from './LocationTracker';
 
+// TODO remove this
+import Project from './Project';
+
 export default class App extends Component {
   render() {
     return (
@@ -29,6 +32,7 @@ export default class App extends Component {
             <Route path="/donate" component={Donate} />
             <Route path="/links" component={Links} />
             <Route path="/contact" component={Contact} />
+            <Route path="/project" component={Project} />
             <Route path="*" component={NotFound} />
           </Switch>
         </div>

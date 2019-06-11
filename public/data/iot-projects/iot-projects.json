@@ -1,0 +1,26 @@
+{
+  "meta": "This file contains meta-information about iot-projects",
+  "categories": [
+      {
+        "projects": [
+            "guessless.json",
+	    "immersion.json"
+        ],
+        "title": "Entertainment"
+      },
+      {
+        "projects": [
+            "guessless.json",
+	    "immersion.json"
+        ],
+        "title": "Smart home"
+      },
+      {
+        "projects": [
+            "guessless.json",
+	    "immersion.json"
+        ],
+        "title": "Health care"
+      }
+  ]
+}

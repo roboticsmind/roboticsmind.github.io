@@ -111,6 +111,9 @@ module.exports = {
     ],
     noParse: [/autoit\.js$/],
   },
+  node: {
+    fs: "empty"
+  },
   externals: {},
   plugins: []
 };
