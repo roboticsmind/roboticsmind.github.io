@@ -6,7 +6,7 @@
 	"Video": "https://www.youtube.com/watch?v=Eu7Z_zg069Q",
 	"Code": ""
   },
-  "topics": ["ml", "ai"],
+  "tags": ["ml", "ai"],
     "Promotional video :": "(https://www.youtube.com/watch?v=Eu7Z_zg069Q&feature=youtu.be)",
     "authors": "Maher LAAROUSSI, Aboubakr CHOUTTA, Hamid OUFKIR, and Othmane MCHOUAT",
     "Membres:": [
@@ -16,8 +16,7 @@
       "Othmane MCHOUAT (mchouat.o@gmail.com)  [othmaneMCHOUAT](https://github.com/othmaneMCHOUAT \"othmaneMCHOUAT\")"
     ],
     "Nom du produit IoT : Guessless": "![alt text](https://github.com/institut-galilee/guessless/blob/master/docs/Design.png)",
-    "C'est quoi guessless ?": "Une table connect\u00e9e \u00e0 mettre partout dans la maison, qui permet de reconnaitre n'importe quel objet en cas de trou de m\u00e9moire.  \nDans la cuisine, elle vous fournira toute information essentielle sur un aliment pour ainsi manger plus sainement.  \nEnvie d'avoir une description d\u00e9taill\u00e9e sur un objet ? posez-le sur la table !",
-    "Comment \u00e7a marche ?": "Le principe est simple, il suffit de poser un objet sur la surface plexiglass au dessus du panneau LED pour que la table commence sa d\u00e9t\u00e9ction, une animation vous le notifiera. Une fois la reconnaissance termin\u00e9e, le r\u00e9sultat s'affichera sur l'\u00e9cran se trouvant \u00e0 cot\u00e9 du panneau.  \nVous pourrez afficher plus d'information en appuyant sur le bouton \"Plus\" de l'\u00e9cran.",
+    "abstract": "Une table connect\u00e9e \u00e0 mettre partout dans la maison, qui permet de reconnaitre n'importe quel objet en cas de trou de m\u00e9moire.  \nDans la cuisine, elle vous fournira toute information essentielle sur un aliment pour ainsi manger plus sainement.  \nEnvie d'avoir une description d\u00e9taill\u00e9e sur un objet ? posez-le sur la table ! Comment \u00e7a marche ? Le principe est simple, il suffit de poser un objet sur la surface plexiglass au dessus du panneau LED pour que la table commence sa d\u00e9t\u00e9ction, une animation vous le notifiera. Une fois la reconnaissance termin\u00e9e, le r\u00e9sultat s'affichera sur l'\u00e9cran se trouvant \u00e0 cot\u00e9 du panneau.  \nVous pourrez afficher plus d'information en appuyant sur le bouton \"Plus\" de l'\u00e9cran.",
     "Est-ce que \u00e7a marche ?": "Pour l'instant, le projet est en cours de conception mais on vous tiendra au courant de son avancement.",
     "Dans le futur ?": "Plusieurs am\u00e9liorations sont pr\u00e9vues pour notre table comme la reconnaissance vocale, la comparaison de deux aliments et l'apairage avec un smartphone.",
     "Help ?": {
@@ -27,7 +26,7 @@
       "Reconnaissance d'objet : Tensorflow": "Tensorflow a \u00e9t\u00e9 compil\u00e9 depuis le code source a cause des probl\u00e8mes renconr\u00e9 en l'installant avec la commande `sudo pip3 install tensorflow`.",
       "Interface graphique de l'application : PyQt5": "L'application qui permet de controller la table sera cod\u00e9 avec la librairie PyQt5 en Python."
     },
-    "Composants :": [
+    "hardware": [
       "Matrix LED RGB 64x32 Panel",
       "Raspberry Pi Zero WH",
       "Raspberry Pi Zero 3 B+",

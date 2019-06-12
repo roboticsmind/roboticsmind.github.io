@@ -1,0 +1,85 @@
+
+.c-project-details {
+  padding: 10px 0;
+
+  &__front {
+      margin: 0 0 30px 0;
+  }
+
+  &__front-left {
+    display: inline-block;
+    height: 150px;
+  }
+
+  &__front-right {
+    display: inline-block;
+    height: 150px;
+    float: right;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  ul {
+    list-style-type: circle;
+    padding-left: 20px;
+  }
+
+  &__item {
+    padding-bottom: 8px;
+  }
+
+  &__title {
+    font-size: 35px;
+    color: color('black');
+  }
+
+  &__authors {
+    font-size: 12px;
+  }
+
+  &__booktitle {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  &__topics {
+    font-size: 12px;
+  }
+
+  &__tags {
+    display: inline-block;
+    padding: 0 4px;
+  }
+
+  &__tag {
+    display: inline-block;
+    margin: 0 2px;
+    background-color: color('dark-grey');
+    padding: 2.5px 4px;
+    font-size: 10px;
+    color: color('white');
+  }
+
+  &__video {
+  }
+
+  &__description {
+      width:70%;
+      margin: 0 auto;
+  }
+
+  &__abstract {
+      margin: 0 0 30px 0;
+      text-align: left;
+  }
+
+  &__hardware {
+      margin: 0 0 30px 0;
+  }
+
+  &__software {
+      margin: 0 0 30px 0;
+  }
+}

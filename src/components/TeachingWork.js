@@ -52,7 +52,7 @@ export default class TeachingWork extends Component {
         key={key}
         href={links[key]}
         className="u-links__link"
-        target="_blank"
+        target=""
         onClick={() => this.handleLinkClick(`${work.title}::${key}`)}
       >
         {key}

@@ -10,6 +10,8 @@ import Research from './Research';
 import Teaching from './Teaching';
 import Partners from './Partners';
 import Donate from './Donate';
+import Course from './Course';
+import ProjectDetails from './ProjectDetails';
 import Links from './Links';
 import LocationTracker from './LocationTracker';
 
@@ -33,6 +35,8 @@ export default class App extends Component {
             <Route path="/links" component={Links} />
             <Route path="/contact" component={Contact} />
             <Route path="/project" component={Project} />
+            <Route path="/projectDetails" component={ProjectDetails} />
+            <Route path="/course/:courseId" component={Course} />
             <Route path="*" component={NotFound} />
           </Switch>
         </div>
