@@ -135,7 +135,7 @@
           "topics": ["ml"]
         },
         {
-          "booktitle": "In the 7th scientific day of the doctoral school Galilée, Sorbonne Paris Cité, June 7, 2019.",
+          "booktitle": "In the 27th scientific day of the doctoral school Galilée, Sorbonne Paris Cité, June 7, 2019.",
           "authors": "Massinissa Hamidi",
           "title": "Apprentissage à partir des exemples et des modèles du domaine dans le cas des objets connectés",
           "links": {
@@ -143,6 +143,15 @@
             "Poster": "./public/presentations/scientific-day-Galilee-07-06-2019-poster.pdf"
           },
           "topics": ["ml"]
+        },
+        {
+          "booktitle": "the 3rd data science summer school, Polytechnique, June 24, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Learning from examples and domain models in the internet of things",
+          "links": {
+            "Poster": "https://www.ds3-datascience-polytechnique.fr/wp-content/uploads/2019/06/DS3-290_2019_v2.pdf"
+          },
+          "topics": ["ml", "iot"]
         }
       ],
       "title": "Presentations"
