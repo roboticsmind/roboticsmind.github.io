@@ -114,7 +114,7 @@ class ProjectDetails extends Component {
         )}
       >
         <YouTube
-            videoId={work.video}
+            videoId={work.links.Video}
             opts={opts}
             onReady={this._onReady}
         />
