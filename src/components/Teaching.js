@@ -2,8 +2,6 @@ import classnames from 'classnames';
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import DataLoader from './DataLoader';
-//import ResearchTopic from './ResearchTopic';
-//import ResearchWork from './ResearchWork';
 import TeachingTopic from './TeachingTopic';
 import TeachingWork from './TeachingWork';
 

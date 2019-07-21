@@ -2,12 +2,13 @@ import classnames from 'classnames';
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import DataLoader from './DataLoader';
+import MarkdownLoader from './MarkdownLoader';
 import ResearchTopic from './ResearchTopic';
 import ProjectWork from './ProjectWork';
 
 import listReactFiles from 'list-react-files'
 
-const DATA_URL = '/public/data/iot-projects/iot-course.json';
+import ReactMarkdown from 'react-markdown';
 
 class Course extends Component {
 
@@ -43,20 +44,34 @@ class Course extends Component {
 
   render() {
     const { data } = this.props;
-    const sections = data.sections.map((section, i) => this.renderSection(section, i));
+    //const DATA_URL = '/public/data/' + data.courseId + '.json';
+    //const sections = data.sections.map((section, i) => this.renderSection(section, i));
+    //return (
+    //  <div className="c-teaching">
+    //    <p>this.props.match.params.courseId</p>
+    //    {sections}
+    //  </div>
+    //);
+    // const React = require('react')
+    // const ReactDOM = require('react-dom')
+    // const ReactMarkdown = require('react-markdown')
+    // const input = '# This is a header\n\nAnd this is a paragraph'
+    // render(<ReactMarkdown source={input} />, document.getElementById('container'))
+    console.log(data)
     return (
       <div className="c-teaching">
-        {sections}
+         <ReactMarkdown source={data} />
       </div>
     );
   }
 }
 
 export default (...props) => {
+  // const DATA_URL = '/public/data/iot-projects/' + props[0].match.params.courseId + '.json';
+  const DATA_URL = '/public/data/iot-projects/guessless.md';
   return (
-    <DataLoader json={DATA_URL}>
-      <p>this.props.match.params.courseId</p>
+    <MarkdownLoader markdown={DATA_URL}>
       <Course {...props} />
-    </DataLoader>
+    </MarkdownLoader>
   );
 };

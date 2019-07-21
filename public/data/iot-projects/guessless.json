@@ -1,6 +1,7 @@
 {
   "title": "Guessless Project",
   "links": {
+    "Overview": "/projectDetails/guessless",
 	"PDF": "",
 	"Slides": "",
 	"Video": "Eu7Z_zg069Q",
@@ -22,7 +23,7 @@
     "Help ?": {
       "Comment lancer l'application ?": "L'application, pour l'instant, se situe dans le r\u00e9pertoire `tensorflow/models/research/object_detection/`."
     },
-    "Aspet technique :": {
+    "Aspects techniques :": {
       "Reconnaissance d'objet : Tensorflow": "Tensorflow a \u00e9t\u00e9 compil\u00e9 depuis le code source a cause des probl\u00e8mes renconr\u00e9 en l'installant avec la commande `sudo pip3 install tensorflow`.",
       "Interface graphique de l'application : PyQt5": "L'application qui permet de controller la table sera cod\u00e9 avec la librairie PyQt5 en Python."
     },

@@ -1,6 +1,6 @@
 
 .c-teaching {
-  color: color('dark-grey');
+  // color: color('dark-grey');
 
   &__category {
     padding: 10px 0;
@@ -14,7 +14,19 @@
   }
 
   &__work-list {
+  }
 
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  ul {
+    list-style-type: circle;
+    padding-left: 20px;
   }
 }
 

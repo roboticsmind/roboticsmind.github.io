@@ -53,7 +53,7 @@ export default class TeachingWork extends Component {
         href={links[key]}
         className="u-links__link"
         target="_blank"
-        onClick={() => this.handleLinkClick(`${work.title}::${key}`)}
+        onClick={() => this.handleLinkClick(`${data.title}::${key}`)}
       >
         {key}
       </a>
@@ -66,7 +66,11 @@ export default class TeachingWork extends Component {
           'c-teaching-work__item'
         )}
       >
-        {data.title} {this.renderTopicTagsItem()}
+        <Link
+          to={{ pathname: data.links.Overview, projectId: data.projectId }}
+        >
+            {data.title} {this.renderTopicTagsItem()}
+        </Link>
       </div>
     ) : null;
 

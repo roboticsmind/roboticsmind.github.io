@@ -35,8 +35,8 @@ export default class App extends Component {
             <Route path="/links" component={Links} />
             <Route path="/contact" component={Contact} />
             <Route path="/project" component={Project} />
-            <Route path="/projectDetails" component={ProjectDetails} />
-            <Route path="/course/:courseId" component={Course} />
+            <Route exact path="/projectDetails/:projectId" component={ProjectDetails} />
+            <Route exact path="/course/:courseId" component={Course} />
             <Route path="*" component={NotFound} />
           </Switch>
         </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
 import DataLoader from './DataLoader';
 
-const DATA_URL = '/public/data/iot-projects/guessless.json';
+// const DATA_URL = '/public/data/iot-projects/guessless.json';
 
 class ProjectDetails extends Component {
   handleLinkClick = eventLabel => {
@@ -100,10 +100,10 @@ class ProjectDetails extends Component {
     ) : null;
 
     const opts = {
-      height: '100%',
+      height: '110%',
       width: '100%',
       playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 1
+        autoplay: 0,
       }
     };
     const videoItem = work.links.Video ? (
@@ -188,6 +188,7 @@ class ProjectDetails extends Component {
 }
 
 export default (...props) => {
+  const DATA_URL = '/public/data/iot-projects/' + props[0].match.params.projectId + '.json'
   return (
     <DataLoader json={DATA_URL}>
       <ProjectDetails {...props} />
