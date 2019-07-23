@@ -4,23 +4,38 @@
       {
         "projects": [
             "guessless.json",
-	        "immersion.json"
+	        "immersion.json",
+            "subtee.json",
+            "n-printer.json"
         ],
         "title": "Entertainment"
       },
       {
         "projects": [
-            "guessless.json",
-	        "immersion.json"
+            "smart-door.json",
+	        "heated-mug.json",
+            "dfc-project.json",
+            "smart-lamp.json"
         ],
         "title": "Smart home"
       },
       {
         "projects": [
-            "guessless.json",
-	        "immersion.json"
+            "baby-phone.json",
+            "smyn4000.json"
         ],
-        "title": "Health care"
+        "title": "Health care/well being"
+      },
+      {
+        "projects": [
+            "ava.json",
+            "secret-garden.json",
+            "smart-parking.json",
+            "smart-waiting-line.json",
+            "smart-trash.json",
+            "deathly-hallows.json"
+        ],
+        "title": "Smart city"
       }
   ]
 }

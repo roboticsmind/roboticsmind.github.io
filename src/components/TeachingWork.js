@@ -48,23 +48,12 @@ export default class TeachingWork extends Component {
     } = this.props;
     const links = work.links || {};
     const linkItems = isLinkVisible ? Object.keys(links).map((key, i) => (
-      // TODO isLinkExternal ? to handle github link for example!
-      //   <a
-      //     key={key}
-      //     href={links[key]}
-      //     className="u-links__link"
-      //     target=""
-      //     onClick={() => this.handleLinkClick(`${work.title}::${key}`)}
-      //   >
-      //     {key}
-      //   </a>
-      //   :
-        <Link
-          className="u-links__link"
-          to={{ pathname: links[key], courseId: work.id }}
-        >
-          {key}
-        </Link>
+      <Link
+        className="u-links__link"
+        to={{ pathname: links[key], courseId: work.id }}
+      >
+        {key}
+      </Link>
     )) : null;
 
     const titleItem = work.title ? (
@@ -74,7 +63,11 @@ export default class TeachingWork extends Component {
           'c-teaching-work__item'
         )}
       >
-        {work.title} {this.renderTopicTagsItem()}
+        <Link
+          to={{ pathname: '/course/'+work.id }}
+        >
+            {work.title} {this.renderTopicTagsItem()}
+        </Link>
       </div>
     ) : null;
 

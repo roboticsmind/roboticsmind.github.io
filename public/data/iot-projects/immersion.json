@@ -1,14 +1,19 @@
 {
+  "id": "immersion",
   "title": "Immersion_projects",
-  "authors": "Heba Kaddouh, Mohamed Ben Saad, Jessy Colombo, and Khalid Barakat",
   "links": {
-    "Overview": "/projectDetails/immersion",
 	"PDF": "",
 	"Slides": "",
 	"Video": "F6XeG3sRFKY",
 	"Code": ""
   },
   "topics": ["ml", "ai"],
+  "authors": [
+      "Heba Kaddouh",
+      "Mohamed Ben Saad",
+      "Jessy Colombo",
+      "Khalid Barakat"
+  ],
   "Immersion_projects": {
     "TEAM MEMBRES :": [
       "Name: Heba Kaddouh [Hebakaddouh](https://github.com/Hebakaddouh)\nEmail : heba.kaddouh@gmail.com",

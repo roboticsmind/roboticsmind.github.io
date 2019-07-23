@@ -77,6 +77,13 @@ class ProjectDetails extends Component {
       </div>
     ) : null;
 
+    const authorsSeperatedWithCommas = 
+        // Credit: https://stackoverflow.com/a/40276830/3441514
+        data.authors.map((author, i) =>
+            <span key={i}>
+                {i > 0 && ", "}
+                {author}
+            </span>)
     const authorsItem = work.authors ? (
       <div
         className={classnames(
@@ -84,7 +91,7 @@ class ProjectDetails extends Component {
           'c-project-details__item'
         )}
       >
-        {work.authors}
+        {authorsSeperatedWithCommas}
       </div>
     ) : null;
 

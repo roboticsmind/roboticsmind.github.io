@@ -131,16 +131,3 @@ export default (...props) => {
     </DataLoader>
   );
 };
-
-/*
-<div className="card">
-        <div className="card-text">
-          <h4><a href="/~srikanta/course/cov888-2019/">COV 888 - Spl. Module in Database Systems (2018-19 Sem 2)</a></h4>
-          <div className="card-desription">
-            <p>Focus on Knowledge Graph Management and IR</p>
-          </div>
-        </div>
-      </div>
-
-
-*/

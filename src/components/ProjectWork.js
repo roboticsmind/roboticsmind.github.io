@@ -67,13 +67,20 @@ export default class TeachingWork extends Component {
         )}
       >
         <Link
-          to={{ pathname: data.links.Overview, projectId: data.projectId }}
+          to={{ pathname: '/projectDetails/'+data.id }}
         >
             {data.title} {this.renderTopicTagsItem()}
         </Link>
       </div>
     ) : null;
 
+    const authorsSeperatedWithCommas = 
+        // Credit: https://stackoverflow.com/a/40276830/3441514
+        data.authors.map((author, i) =>
+            <span key={i}>
+                {i > 0 && ", "}
+                {author}
+            </span>)
     const authorsItem = data.authors ? (
       <div
         className={classnames(
@@ -81,18 +88,18 @@ export default class TeachingWork extends Component {
           'c-teaching-work__item'
         )}
       >
-        {data.authors}
+        {authorsSeperatedWithCommas}
       </div>
     ) : null;
 
-    const booktitleItem = data.booktitle ? (
+    const descriptionItem = data.descr ? (
       <div
         className={classnames(
           'c-teaching-work__booktitle',
           'c-teaching-work__item'
         )}
       >
-        {data.booktitle}
+        {data.descr}
       </div>
     ) : null;
 
@@ -101,7 +108,7 @@ export default class TeachingWork extends Component {
       <div className='c-teaching-work__card'>
         {titleItem}
         {authorsItem}
-        {booktitleItem}
+        {descriptionItem}
         <div className="u-links">
           {linkItems}
         </div>
