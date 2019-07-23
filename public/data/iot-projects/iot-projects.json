@@ -12,16 +12,19 @@
       },
       {
         "projects": [
+            "deathly-hallows.json",
             "smart-door.json",
 	        "heated-mug.json",
             "dfc-project.json",
-            "smart-lamp.json"
+            "smart-lamp.json",
+            "gas-detector.json"
         ],
         "title": "Smart home"
       },
       {
         "projects": [
             "baby-phone.json",
+            "digiscript.json",
             "smyn4000.json"
         ],
         "title": "Health care/well being"
@@ -32,8 +35,7 @@
             "secret-garden.json",
             "smart-parking.json",
             "smart-waiting-line.json",
-            "smart-trash.json",
-            "deathly-hallows.json"
+            "smart-trash.json"
         ],
         "title": "Smart city"
       }

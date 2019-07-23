@@ -50,11 +50,21 @@
   }
 
   &__card {
-     display: inline-block;
+     // display: inline-block;
+     display: inline-flex;
      position: relative;
-     min-height: 150px;
-     max-width: 300px;
+     // min-height: 150px;
+     height: 200px;
+     // max-width: 310px;
+     width: 310px;
      padding: 0.75rem 1rem 0.75rem;
+     padding-right: 0px;  // put illustration to the far-right
+     padding-top: 0px;  // put illustration to the far-right
+  }
+
+  &__descr {
+      padding-top: 15px;
+      padding-right: 10px;  // put illustration to the far-right
   }
 
   &__card:hover {
@@ -67,5 +77,23 @@
   
   &__card:hover .card-image.hover-overlay:after {
     opacity: 0.6;
+  }
+
+  &__illustration {
+      height: 200px;
+      width: 90px;
+  }
+
+  &__illustration img {
+      object-fit: cover;
+      object-position: -0% 10;
+      width: 90px;
+      height: 230px;
+  }
+
+  &__card:hover img {
+      transform: scale(1.2);
+      transition: all .2s;
+      transition: all .2s ease;
   }
 }

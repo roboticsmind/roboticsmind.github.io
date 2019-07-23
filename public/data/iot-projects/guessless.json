@@ -1,6 +1,7 @@
 {
   "id": "guessless",
   "title": "Guessless Project",
+  "illustration": "/public/data/iot-projects/guessless-design.png",
   "links": {
 	"PDF": "",
 	"Slides": "",

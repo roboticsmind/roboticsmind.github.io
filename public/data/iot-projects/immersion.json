@@ -1,6 +1,7 @@
 {
   "id": "immersion",
   "title": "Immersion_projects",
+  "illustration": "/public/data/iot-projects/immersion.png",
   "links": {
 	"PDF": "",
 	"Slides": "",

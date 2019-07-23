@@ -103,15 +103,29 @@ export default class TeachingWork extends Component {
       </div>
     ) : null;
 
+    const illustration = data.illustration ? (
+      <div
+        className={classnames(
+          'c-teaching-work__illustration',
+          'c-teaching-work__item'
+        )}
+      >
+        <img src={data.illustration} />
+      </div>
+    ) : null;
+
     return (
       <div className='c-teaching-work'>
       <div className='c-teaching-work__card'>
-        {titleItem}
-        {authorsItem}
-        {descriptionItem}
-        <div className="u-links">
-          {linkItems}
+        <div className='c-teaching-work__descr'>
+            {titleItem}
+            {authorsItem}
+            {descriptionItem}
+            <div className="u-links">
+              {linkItems}
+            </div>
         </div>
+        {illustration}
       </div>
       </div>
     );
