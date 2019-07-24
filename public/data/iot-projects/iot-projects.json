@@ -15,9 +15,15 @@
             "deathly-hallows.json",
             "smart-door.json",
 	        "heated-mug.json",
+            "smart-home.json",
+            "iot-labs-2018.json",
+            "smart-security-alarm.json",
             "dfc-project.json",
             "smart-lamp.json",
-            "gas-detector.json"
+            "gas-detector.json",
+            "vocal-control.json",
+            "smart-thermostat.json",
+            "fire-alarm.json"
         ],
         "title": "Smart home"
       },
@@ -34,8 +40,11 @@
             "ava.json",
             "secret-garden.json",
             "smart-parking.json",
+            "anti-collision-car.json",
             "smart-waiting-line.json",
-            "smart-trash.json"
+            "smart-parking-replica.json",
+            "smart-trash.json",
+            "toll-tax-barrier.json"
         ],
         "title": "Smart city"
       }
