@@ -1,0 +1,33 @@
+
+.c-project {
+  // color: color('dark-grey');
+
+  &__category {
+    padding: 10px 0;
+  }
+
+  &__category-title {
+    padding: 10px 0;
+    font-size: 18px;
+    color: color('black');
+    font-weight: $bold;
+  }
+
+  &__work-list {
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  ul {
+    list-style-type: circle;
+    padding-left: 20px;
+  }
+}
+
+

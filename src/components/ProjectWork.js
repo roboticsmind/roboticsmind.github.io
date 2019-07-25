@@ -2,7 +2,7 @@ import classnames from 'classnames';
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
-export default class TeachingWork extends Component {
+export default class ProjectWork extends Component {
   handleLinkClick = eventLabel => {
     ga('send', {
       hitType: 'event',
@@ -28,14 +28,14 @@ export default class TeachingWork extends Component {
     const topicTags = topics.map(topic => (
       <div
         key={topic.id}
-        className="c-teaching-work__tag"
+        className="c-project-work__tag"
         style={topic.color ? { backgroundColor: topic.color } : {}}
       >
         {topic.tag}
       </div>
     ));
     return (
-      <div className="c-teaching-work__tags">
+      <div className="c-project-work__tags">
         {topicTags}
       </div>
     );
@@ -62,8 +62,8 @@ export default class TeachingWork extends Component {
     const titleItem = data.title ? (
       <div
         className={classnames(
-          'c-teaching-work__title',
-          'c-teaching-work__item'
+          'c-project-work__title',
+          'c-project-work__item'
         )}
       >
         <Link
@@ -84,8 +84,8 @@ export default class TeachingWork extends Component {
     const authorsItem = data.authors ? (
       <div
         className={classnames(
-          'c-teaching-work__authors',
-          'c-teaching-work__item'
+          'c-project-work__authors',
+          'c-project-work__item'
         )}
       >
         {authorsSeperatedWithCommas}
@@ -95,8 +95,8 @@ export default class TeachingWork extends Component {
     const descriptionItem = data.descr ? (
       <div
         className={classnames(
-          'c-teaching-work__booktitle',
-          'c-teaching-work__item'
+          'c-project-work__booktitle',
+          'c-project-work__item'
         )}
       >
         {data.descr}
@@ -106,8 +106,8 @@ export default class TeachingWork extends Component {
     const illustration = data.illustration ? (
       <div
         className={classnames(
-          'c-teaching-work__illustration',
-          'c-teaching-work__item'
+          'c-project-work__illustration',
+          'c-project-work__item'
         )}
       >
         <img src={data.illustration} />
@@ -115,9 +115,9 @@ export default class TeachingWork extends Component {
     ) : null;
 
     return (
-      <div className='c-teaching-work'>
-      <div className='c-teaching-work__card'>
-        <div className='c-teaching-work__descr'>
+      <div className='c-project-work'>
+      <div className='c-project-work__card'>
+        <div className='c-project-work__descr'>
             {titleItem}
             {authorsItem}
             {descriptionItem}

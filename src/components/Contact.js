@@ -6,7 +6,7 @@ import { render } from 'react-dom'
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
 import { SocialIcon } from 'react-social-icons';
 
-const MY_API_KEY = 'AIzaSyCJW-HhyVcQze6OGT9wDrE0kyYCuv3wHg0';
+const MY_API_KEY = 'AIzaSyBwnaLyWzst_5CoDvHhByeSryPJtc6wh_g';
 const LAB_POSITION = {
   lat: 48.9548,
   lng: 2.3430
@@ -51,8 +51,9 @@ class Contact extends Component {
         </Map>
       )
 
-      render(map, document.getElementsByClassName('c-contact__map')[0])
+      //render(map, document.getElementsByClassName('c-contact__map')[0])
       /* return map; */
+      return map;
   }
 
   renderSocialMedia() {
@@ -62,6 +63,7 @@ class Contact extends Component {
         <SocialIcon style={{ height: 25, width: 25 }} url="https://github.com/roboticsmind"/>
         <SocialIcon style={{ height: 25, width: 25 }} url="https://www.linkedin.com/in/massinissahamidi"/>
         <SocialIcon style={{ height: 25, width: 25 }} url="https://www.twitter.com/realRoboticMind"/>
+        <SocialIcon style={{ height: 25, width: 25 }} url="https://www.youtube.com/channel/UCO7jkOKWF8LEwwlnzBIPRGQ"/>
         </div>
       render(sm, document.getElementById('social-media'));
   }
@@ -98,7 +100,7 @@ class Contact extends Component {
           </dt>
       		<dd className="c-contact__content">
             <div className="c-contact__map">
-              {/* this.renderMap() */}
+              { this.renderMap() }
               {/* this.renderOpenStreetMap() */}
               {/*
                       this.renderOpenStreetMap()

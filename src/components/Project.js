@@ -108,12 +108,12 @@ class Project extends Component {
     return (
       <div
         key={i}
-        className="c-teaching__category"
+        className="c-project__category"
       >
-        <div className="c-teaching__category-title">
+        <div className="c-project__category-title">
           {category.title}
         </div>
-        <div className="c-teaching__work-list">
+        <div className="c-project__work-list">
           {workItems}
         </div>
       </div>
@@ -124,7 +124,7 @@ class Project extends Component {
     const { data } = this.props;
     const categoryItems = data.categories.map((category, i) => this.renderCategory(category, i));
     return (
-      <div className="c-teaching">
+      <div className="c-project">
         {categoryItems}
       </div>
     );

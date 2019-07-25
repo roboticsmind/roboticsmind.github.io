@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
 import DataLoader from './DataLoader';
+import ReactMarkdown from 'react-markdown';
 
 // const DATA_URL = '/public/data/iot-projects/guessless.json';
 
@@ -15,6 +16,18 @@ class ProjectDetails extends Component {
       eventLabel: eventLabel
     });
   }
+
+  // componentWillMount() {
+  //     // setTimeout(() => this.setSpinnerVisible(), 500);
+  //     fetch(work.markdown).then(response => {
+  //     	return response.text();
+  //     }).then(data => {
+  // 	    this.setState({ markdown: data });
+  //     }).catch(err => {
+  //         this.setState({ data: null });
+  //         console.error('Failed to load data:', err);
+  //     });
+  // }
 
   renderTopicTagsItem() {
     const {
@@ -48,6 +61,7 @@ class ProjectDetails extends Component {
   render() {
     const { 
       data, 
+      markdown,
       isLinkVisible=true, 
     } = this.props;
 
@@ -107,11 +121,11 @@ class ProjectDetails extends Component {
     ) : null;
 
     const opts = {
-      height: '110%',
-      width: '100%',
-      playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 0,
-      }
+	    width: '90%',
+	    height: '100%',
+        playerVars: { // https://developers.google.com/youtube/player_parameters
+            autoplay: 0,
+        }
     };
     const videoItem = work.links.Video ? (
       <div
@@ -169,6 +183,13 @@ class ProjectDetails extends Component {
       </div>
     ) : null;
 
+    // const { markdown } = this.props.markdown
+    const descr = (
+        <ReactMarkdown
+            source={markdown} 
+        />
+    );
+
     return (
       <div className='c-project-details'>
         <div className='c-project-details__front'>
@@ -188,6 +209,7 @@ class ProjectDetails extends Component {
             {abstractItem}
             {hardwareItem}
             {softwareItem}
+            {descr}
         </div>
       </div>
     );
@@ -196,8 +218,9 @@ class ProjectDetails extends Component {
 
 export default (...props) => {
   const DATA_URL = '/public/data/iot-projects/' + props[0].match.params.projectId + '.json'
+  const MARKDOWN_URL = '/public/data/iot-projects/' + props[0].match.params.projectId + '.md'
   return (
-    <DataLoader json={DATA_URL}>
+    <DataLoader json={DATA_URL} markdown={MARKDOWN_URL}>
       <ProjectDetails {...props} />
     </DataLoader>
   );

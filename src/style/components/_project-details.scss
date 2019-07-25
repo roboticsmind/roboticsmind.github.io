@@ -21,10 +21,19 @@
     font-size: 25px;
   }
 
-  ul {
-    list-style-type: circle;
-    padding-left: 20px;
-  }
+    h2 {
+        padding: 10px 0 20px 0;
+        font-size: 20px;
+    }
+
+    h3 {
+        padding: 0 0 20px 0;
+    }
+    
+    ul {
+        list-style-type: circle;
+        padding-left: 20px;
+    }
 
   &__item {
     padding-bottom: 8px;
