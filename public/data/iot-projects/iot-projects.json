@@ -2,6 +2,12 @@
   "meta": "This file contains meta-information about iot-projects",
   "categories": [
       {
+          "projects": [
+              "extended-shl.json"
+          ],
+          "title": "Research"
+      },
+      {
         "projects": [
             "guessless.json",
 	        "immersion.json",
