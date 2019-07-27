@@ -37470,21 +37470,27 @@ var ProjectWork = function (_Component) {
         'div',
         { className: 'c-project-work' },
         _react2.default.createElement(
-          'div',
-          { className: 'c-project-work__card' },
+          _reactRouterDom.Link,
+          {
+            to: { pathname: '/projectDetails/' + data.id }
+          },
           _react2.default.createElement(
             'div',
-            { className: 'c-project-work__descr' },
-            titleItem,
-            authorsItem,
-            descriptionItem,
+            { className: 'c-project-work__card' },
             _react2.default.createElement(
               'div',
-              { className: 'u-links' },
-              linkItems
-            )
-          ),
-          illustration
+              { className: 'c-project-work__descr' },
+              titleItem,
+              authorsItem,
+              descriptionItem,
+              _react2.default.createElement(
+                'div',
+                { className: 'u-links' },
+                linkItems
+              )
+            ),
+            illustration
+          )
         )
       );
     }
@@ -62159,7 +62165,7 @@ var ProjectDetails = function (_Component) {
         );
       }) : null;
 
-      var hardwareItem = _react2.default.createElement(
+      var hardwareItem = work.hardware ? _react2.default.createElement(
         'div',
         {
           className: (0, _classnames2.default)('c-project-details__hardware', 'c-project-details__item')
@@ -62174,7 +62180,7 @@ var ProjectDetails = function (_Component) {
           null,
           hwItems
         )
-      );
+      ) : null;
 
       var softwareItem = work.software ? _react2.default.createElement(
         'div',

@@ -116,17 +116,21 @@ export default class ProjectWork extends Component {
 
     return (
       <div className='c-project-work'>
-      <div className='c-project-work__card'>
-        <div className='c-project-work__descr'>
-            {titleItem}
-            {authorsItem}
-            {descriptionItem}
-            <div className="u-links">
-              {linkItems}
-            </div>
+      <Link
+        to={{ pathname: '/projectDetails/'+data.id }}
+      >
+        <div className='c-project-work__card'>
+          <div className='c-project-work__descr'>
+              {titleItem}
+              {authorsItem}
+              {descriptionItem}
+              <div className="u-links">
+                {linkItems}
+              </div>
+          </div>
+          {illustration}
         </div>
-        {illustration}
-      </div>
+      </Link>
       </div>
     );
   }

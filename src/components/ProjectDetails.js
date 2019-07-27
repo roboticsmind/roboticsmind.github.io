@@ -158,7 +158,7 @@ class ProjectDetails extends Component {
         <li>{hw}</li>
     )) : null;
 
-    const hardwareItem = (
+    const hardwareItem = work.hardware ? (
       <div
         className={classnames(
           'c-project-details__hardware',
@@ -170,7 +170,7 @@ class ProjectDetails extends Component {
             {hwItems}
         </ul>
       </div>
-    );
+    ): null;
 
     const softwareItem = work.software ? (
       <div
