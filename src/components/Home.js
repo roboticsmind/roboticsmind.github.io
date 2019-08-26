@@ -30,7 +30,7 @@ class Home extends Component {
         <div className="c-home__main-image-container">
           <img
             className="c-home__main-image"
-            src="/public/images/robotics-mind.jpg"
+            src="/public/images/logo/twitter_header_photo_2.png"
             alt="robotics-mind."
           />
         </div>

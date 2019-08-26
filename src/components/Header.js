@@ -14,7 +14,8 @@ export default class Header extends Component {
           */}
           <img
             className="c-header__title-image"
-            src="/public/images/row-of-dolls.jpeg"
+            /* src="/public/images/row-of-dolls.jpeg" */
+            src="/public/images/logo/logo_transparent.png"
           />
         </div>
         <div className="c-header__menu-container">

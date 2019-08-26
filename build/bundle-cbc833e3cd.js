@@ -25724,8 +25724,9 @@ var Header = function (_Component) {
           'div',
           { className: 'c-header__title' },
           _react2.default.createElement('img', {
-            className: 'c-header__title-image',
-            src: '/public/images/row-of-dolls.jpeg'
+            className: 'c-header__title-image'
+            /* src="/public/images/row-of-dolls.jpeg" */
+            , src: '/public/images/logo/logo_transparent.png'
           })
         ),
         _react2.default.createElement(
@@ -36512,7 +36513,7 @@ var Home = function (_Component) {
           { className: 'c-home__main-image-container' },
           _react2.default.createElement('img', {
             className: 'c-home__main-image',
-            src: '/public/images/robotics-mind.jpg',
+            src: '/public/images/logo/twitter_header_photo_2.png',
             alt: 'robotics-mind.'
           })
         ),
