@@ -3,9 +3,17 @@
   "categories": [
       {
           "projects": [
-              "extended-shl.json"
+              "infant-cries-recognition.json",
+              "zigbee-based-home-automation.json"
           ],
-          "title": "Research"
+          "title": "Propositions"
+      },
+      {
+          "projects": [
+              "extended-shl.json",
+              "ubidots-based-iot-use-case.json"
+          ],
+          "title": "Platform"
       },
       {
         "projects": [
@@ -18,12 +26,18 @@
       },
       {
         "projects": [
+            "smart-mirror.json",
             "deathly-hallows.json",
+            "smart-energy.json",
             "smart-door.json",
 	        "heated-mug.json",
             "smart-home.json",
+            "smart-weather-station.json",
             "iot-labs-2018.json",
+            "iot-labs-2018-1.json",
+            "iot-labs-2018-2.json",
             "smart-security-alarm.json",
+            "jarvis-based-smart-assistant.json",
             "dfc-project.json",
             "smart-lamp.json",
             "gas-detector.json",
@@ -49,6 +63,7 @@
             "anti-collision-car.json",
             "smart-waiting-line.json",
             "smart-parking-replica.json",
+            "connected-plant.json",
             "smart-trash.json",
             "toll-tax-barrier.json"
         ],

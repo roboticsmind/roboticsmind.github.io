@@ -1,7 +1,8 @@
 {
   "id": "deathly-hallows",
   "title": "Advanced Connected Captor Suit",
-  "descr": "A number of accidents happen on large vehicles each year because the drivers don't notice the cars or pedestrians in the blind zone. Our product is a light stuck on the buses or trucks which reminds the driver when pedestrians or cars are in his blind zone.",
+  "illustration": "/public/data/iot-projects/deathly-hallows.png",
+  "descr": "",
   "links": {
 	  "PDF": "https://github.com/efrei-paris-sud/iot-projects/blob/master/A2CS/docs/A2CS-Rapport.pdf",
 	  "Slides": "https://github.com/efrei-paris-sud/iot-projects/blob/master/A2CS/docs/A2CS_Presentation_sansvideo.pptx",
