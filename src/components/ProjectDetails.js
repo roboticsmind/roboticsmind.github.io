@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
 import DataLoader from './DataLoader';
-import ReactMarkdown from 'react-markdown';
+//import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown/with-html'
 
 // const DATA_URL = '/public/data/iot-projects/guessless.json';
 
@@ -187,6 +188,7 @@ class ProjectDetails extends Component {
     const descr = (
         <ReactMarkdown
             source={markdown} 
+            escapeHtml={false}
         />
     );
 

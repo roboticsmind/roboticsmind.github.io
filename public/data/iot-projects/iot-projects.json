@@ -4,13 +4,17 @@
       {
           "projects": [
               "infant-cries-recognition.json",
+              "infant-cries-recognition-2.json",
+              "conduite-gestion-projet-1.json",
+              "extended-shl.json",
+              "data-sampling-strategies.json",
               "zigbee-based-home-automation.json"
           ],
-          "title": "Propositions"
+          "title": "Proposed subjects"
       },
       {
           "projects": [
-              "extended-shl.json",
+              "shl-to-platform.json",
               "ubidots-based-iot-use-case.json"
           ],
           "title": "Platform"
@@ -36,6 +40,7 @@
             "iot-labs-2018.json",
             "iot-labs-2018-1.json",
             "iot-labs-2018-2.json",
+            "iot-labs-2018-3.json",
             "smart-security-alarm.json",
             "jarvis-based-smart-assistant.json",
             "dfc-project.json",
