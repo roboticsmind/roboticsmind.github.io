@@ -5,6 +5,7 @@
           "projects": [
               "infant-cries-recognition.json",
               "infant-cries-recognition-2.json",
+              "vibration-data-1.json",
               "conduite-gestion-projet-1.json",
               "extended-shl.json",
               "data-sampling-strategies.json",
