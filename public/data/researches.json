@@ -50,7 +50,7 @@
           "authors": "Massinissa Hamidi and Aomar Osmani",
           "title": "HAR Data Generation Model to Highly Reduce Learning Space",
           "links": {
-            "PDF": "https://kr2ml.github.io/2019/papers/KR2ML_2019_paper_1.pdf",
+            "PDF": "https://kr2ml.github.io/2019/papers",
             "Code": "https://github.com/alphaequivalence/shl-nas"
           },
           "topics": ["ml", "ai"]
