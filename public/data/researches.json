@@ -46,6 +46,16 @@
           "topics": ["ml", "ai"]
         },
         {
+          "booktitle": "Knowledge Representation & Reasoning Meets Machine Learning workshop, KR2ML@NeurIPS, 2019",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "HAR Data Generation Model to Highly Reduce Learning Space",
+          "links": {
+            "PDF": "https://kr2ml.github.io/2019/papers/KR2ML_2019_paper_1.pdf",
+            "Code": "https://github.com/alphaequivalence/shl-nas"
+          },
+          "topics": ["ml", "ai"]
+        },
+        {
           "booktitle": "In Deep Learning for Human Activity Recognition workshop @IJCAI, 2019",
           "authors": "Massinissa Hamidi and Aomar Osmani",
           "title": "Improving Human Activity Recognition with Data Sources Integration",
