@@ -42,7 +42,7 @@ class Home extends Component {
         </div>
         <div className="u-links">
           <Link
-            className="u-links__link"
+            className="u-links__link u-links__active"
             to="/research"
           >
             See More

@@ -53,7 +53,7 @@ export default class Member extends Component {
       <a
         key={i}
         href={link[1]}
-        className="u-links__link"
+        className={classnames("u-links__link", "u-links__active")}
         target="_blank"
         onClick={() => this.handleLinkClick(`${member.email}::${link[0]}`)}
       >

@@ -51,7 +51,11 @@ export default class ProjectWork extends Component {
       <a
         key={key}
         href={links[key]}
-        className="u-links__link"
+        className={classnames(
+            "u-links__link",
+            links[key] == "" ? "u-links__inactive" : "u-links__active"
+        )}
+
         target="_blank"
         onClick={() => this.handleLinkClick(`${data.title}::${key}`)}
       >

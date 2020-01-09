@@ -27,7 +27,12 @@
     line-height: 1em;
     color: color('dark-grey');
     border-radius: 3px;
-
+  }
+  &__inactive {
+      opacity: 0.5;
+      pointer-events: none;
+  }
+  &__active {
     &:hover {
       border-color: color('link');
       color: color('link');

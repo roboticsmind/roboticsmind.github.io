@@ -49,7 +49,7 @@ export default class TeachingWork extends Component {
     const links = work.links || {};
     const linkItems = isLinkVisible ? Object.keys(links).map((key, i) => (
       <Link
-        className="u-links__link"
+        className="u-links__link u-links__active"
         to={{ pathname: links[key], courseId: work.id }}
       >
         {key}

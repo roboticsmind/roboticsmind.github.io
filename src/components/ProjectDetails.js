@@ -73,7 +73,10 @@ class ProjectDetails extends Component {
       <a
         key={key}
         href={links[key]}
-        className="u-links__link"
+        className={classnames(
+            "u-links__link",
+            links[key] == "" ? "u-links__inactive" : "u-links__active"
+        )}
         target=""
         onClick={() => this.handleLinkClick(`${work.title}::${key}`)}
       >

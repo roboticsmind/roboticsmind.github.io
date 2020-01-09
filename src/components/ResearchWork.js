@@ -51,7 +51,7 @@ export default class ResearchWork extends Component {
       <a
         key={key}
         href={links[key]}
-        className="u-links__link"
+        className="u-links__link u-links__active"
         target="_blank"
         onClick={() => this.handleLinkClick(`${work.title}::${key}`)}
       >
