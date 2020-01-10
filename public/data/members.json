@@ -45,8 +45,26 @@
           ]
         ],
         "email":"massinissa.hamidi@lipn.univ-paris13.fr"
+      },
+      {
+        "attributes":[
+          [
+            "education",
+            "Ph.D. candidate in Computer Science, 2021, Sorbonne Paris Cité"
+          ]
+        ],
+        "image":"/public/images/members/aliModaresi.jpg",
+        "name":"Seyed Ali Reza Modaresi",
+        "links":[
+          [
+            "Homepage",
+            "https://lipn.univ-paris13.fr/~modaresi"
+          ]
+        ],
+        "email":"modaresi@lipn.univ-paris13.fr"
       }
+
     ],
-    "title":"Team Coordinator"
+    "title":"Team Coordinators"
   }
 ]
