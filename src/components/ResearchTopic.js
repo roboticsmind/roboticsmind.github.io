@@ -17,6 +17,24 @@ export default class ResearchTopic extends Component {
     );
   }
 
+  renderTag() {
+      const {
+          topic,
+          hidden
+      } = this.props;
+      return (
+        <div className="c-research-work__tags">
+            <div
+              key={topic.id}
+              className="c-research-work__tag"
+              style={topic.color ? { backgroundColor: topic.color } : {}}
+            >
+              {topic.tag}
+            </div>
+        </div>
+      )
+  }
+
   render() {
     const { 
       topic, 
@@ -38,6 +56,7 @@ export default class ResearchTopic extends Component {
         <div className="c-research-topic__title">
           {topic.title}
         </div>
+        {this.renderTag()}
       </a>
     );
   }

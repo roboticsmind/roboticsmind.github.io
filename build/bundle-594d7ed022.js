@@ -21729,14 +21729,35 @@ var ResearchTopic = function (_Component) {
       return hidden ? _react2.default.createElement('i', { className: 'c-research-topic__check-icon fa fa-circle', style: style }) : _react2.default.createElement('i', { className: 'c-research-topic__check-icon fa fa-check-circle', style: style });
     }
   }, {
-    key: 'render',
-    value: function render() {
+    key: 'renderTag',
+    value: function renderTag() {
       var _props2 = this.props,
           topic = _props2.topic,
-          onClick = _props2.onClick,
-          hidden = _props2.hidden,
-          showTopic = _props2.showTopic,
-          hideTopic = _props2.hideTopic;
+          hidden = _props2.hidden;
+
+      return _react2.default.createElement(
+        'div',
+        { className: 'c-research-work__tags' },
+        _react2.default.createElement(
+          'div',
+          {
+            key: topic.id,
+            className: 'c-research-work__tag',
+            style: topic.color ? { backgroundColor: topic.color } : {}
+          },
+          topic.tag
+        )
+      );
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props3 = this.props,
+          topic = _props3.topic,
+          onClick = _props3.onClick,
+          hidden = _props3.hidden,
+          showTopic = _props3.showTopic,
+          hideTopic = _props3.hideTopic;
 
 
       return _react2.default.createElement(
@@ -21750,7 +21771,8 @@ var ResearchTopic = function (_Component) {
           'div',
           { className: 'c-research-topic__title' },
           topic.title
-        )
+        ),
+        this.renderTag()
       );
     }
   }]);
