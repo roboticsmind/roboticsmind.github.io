@@ -1,0 +1,15 @@
+{
+  "id": "2019-peaky-blinders",
+  "title": "2019-peaky-blinders",
+  "illustration": "",
+  "descr": "",
+  "links": {
+	  "PDF": "https://github.com/efrei-paris-sud/peaky-blinders/blob/master/doc/report.pdf",
+	  "Slides": "https://github.com/efrei-paris-sud/peaky-blinders/blob/master/doc/presentation.pdf",
+	  "Video": "",
+	  "Code": "https://github.com/efrei-paris-sud/peaky-blinders/tree/master/src/"
+  },
+  "tags": ["ml", "ai"],
+  "authors": [
+  ]
+}

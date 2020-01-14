@@ -3,6 +3,20 @@
   "categories": [
       {
           "projects": [
+              "2019-anti-theft.json",
+              "2019-boulette.json",
+              "2019-connected-chair.json",
+              "2019-hello-water.json",
+              "2019-make-tomorrow-better.json",
+              "2019-mapay.json",
+              "2019-pangolin.json",
+              "2019-peaky-blinders.json",
+              "2019-team-of-things.json"
+          ],
+          "title": "Efrei 2019"
+      },
+      {
+          "projects": [
               "infant-cries-recognition.json",
               "infant-cries-recognition-2.json",
               "vibration-data-1.json",
