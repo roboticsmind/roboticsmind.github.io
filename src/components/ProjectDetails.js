@@ -225,8 +225,10 @@ export default (...props) => {
   const DATA_URL = '/public/data/iot-projects/' + props[0].match.params.projectId + '.json'
   const MARKDOWN_URL = '/public/data/iot-projects/' + props[0].match.params.projectId + '.md'
   return (
+    <div className="c-project-details">
     <DataLoader json={DATA_URL} markdown={MARKDOWN_URL}>
       <ProjectDetails {...props} />
     </DataLoader>
+    </div>
   );
 };

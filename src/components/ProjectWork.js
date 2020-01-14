@@ -119,7 +119,6 @@ export default class ProjectWork extends Component {
     ) : null;
 
     return (
-      <div className='c-project-work'>
       <Link
         to={{ pathname: '/projectDetails/'+data.id }}
       >
@@ -135,7 +134,6 @@ export default class ProjectWork extends Component {
           {illustration}
         </div>
       </Link>
-      </div>
     );
   }
 }

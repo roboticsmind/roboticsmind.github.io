@@ -97,6 +97,7 @@ class Project extends Component {
     const { topicMap } = this.state;
     const projects = category.projects.filter(work => this.isWorkVisible(work));
     const workItems = projects.map((project, i) => (
+      <div className="c-project-work">
       <DataLoader json={BASE_URL+project}>
         <ProjectWork
           key={i}
@@ -104,6 +105,7 @@ class Project extends Component {
           isLinkVisible={true}
         />
       </DataLoader>
+      </div>
     ));
     return (
       <div
