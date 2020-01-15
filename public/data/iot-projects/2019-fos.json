@@ -1,0 +1,15 @@
+{
+  "id": "2019-fos",
+  "title": "2019-fos",
+  "illustration": "",
+  "descr": "",
+  "links": {
+	  "PDF": "https://github.com/institut-galilee/fos/blob/master/doc/report.pdf",
+	  "Slides": "https://github.com/institut-galilee/fos/blob/master/doc/presentation.pdf",
+	  "Video": "",
+	  "Code": "https://github.com/institut-galilee/fos/tree/master/src"
+  },
+  "tags": ["ml", "ai"],
+  "authors": [
+  ]
+}

@@ -1,6 +1,21 @@
 {
   "meta": "This file contains meta-information about iot-projects",
   "categories": [
+    {
+          "projects": [
+              "2019-coriolis-effect.json",
+              "2019-dam.json",
+              "2019-fos.json",
+              "2019-galileo-s-internet-of-things.json",
+              "2019-les-licornes.json",
+              "2019-lofe.json",
+              "2019-lyapunov-stability.json",
+              "2019-nasta.json",
+              "2019-power.json"
+          ],
+          "title": "Institut Galilée 2019"
+      },
+
       {
           "projects": [
               "2019-anti-theft.json",

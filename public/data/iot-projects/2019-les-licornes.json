@@ -1,0 +1,15 @@
+{
+  "id": "2019-les-licornes",
+  "title": "2019-les-licornes",
+  "illustration": "",
+  "descr": "",
+  "links": {
+	  "PDF": "https://github.com/institut-galilee/les-licornes/blob/master/doc/report.pdf",
+	  "Slides": "https://github.com/institut-galilee/les-licornes/blob/master/doc/presentation.pdf",
+	  "Video": "",
+	  "Code": "https://github.com/institut-galilee/les-licornes/tree/master/src"
+  },
+  "tags": ["ml", "ai"],
+  "authors": [
+  ]
+}
