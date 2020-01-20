@@ -6,10 +6,12 @@
   "links": {
 	  "PDF": "https://github.com/institut-galilee/coriolis-effect/blob/master/doc/report.pdf",
 	  "Slides": "https://github.com/institut-galilee/coriolis-effect/blob/master/doc/presentation.pdf",
-	  "Video": "",
+	  "Video": "TFp4kmfiozA",
 	  "Code": "https://github.com/institut-galilee/coriolis-effect/tree/master/src"
   },
   "tags": ["ml", "ai"],
   "authors": [
+    "Benhalima Mustapha",
+    "Mokhtari Karim"
   ]
 }

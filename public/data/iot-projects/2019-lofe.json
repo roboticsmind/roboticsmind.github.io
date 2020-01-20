@@ -6,10 +6,13 @@
   "links": {
 	  "PDF": "https://github.com/institut-galilee/lofe/blob/master/doc/report.pdf",
 	  "Slides": "https://github.com/institut-galilee/lofe/blob/master/doc/presentation.pdf",
-	  "Video": "",
+	  "Video": "rxLgbaXK0nA",
 	  "Code": "https://github.com/institut-galilee/lofe/tree/master/src"
   },
   "tags": ["ml", "ai"],
   "authors": [
+      "Hadj Ali Lounas",
+    "Djallali Ferroudja",
+    "Hamiche Lotfi"
   ]
 }
