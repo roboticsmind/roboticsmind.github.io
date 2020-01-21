@@ -1,7 +1,7 @@
 {
   "id": "2019-nasta",
   "title": "2019-nasta",
-  "illustration": "",
+  "illustration": "/public/data/iot-projects/2019-nasta.png",
   "descr": "",
   "links": {
 	  "PDF": "https://github.com/institut-galilee/nasta/blob/master/doc/report.pdf",
