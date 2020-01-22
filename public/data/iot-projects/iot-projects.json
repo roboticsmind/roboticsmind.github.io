@@ -32,6 +32,22 @@
       },
       {
           "projects": [
+              "2020-legendary-enigma.json",
+              "2020-SmartHomeJA.json",
+              "2020-potential-eureka.json",
+              "2020-Smart-Lock.json",
+              "2020-Karadik.json",
+              "2020-STORM.json",
+              "2020-FACA.json",
+              "2020-symmetrical-happiness.json",
+              "2020-WITHER.json",
+              "2020-turbo-guacamole.json",
+              "2020-IotExplorer.json"
+          ],
+          "title": "Institut Galilée 2020"
+      },
+      {
+          "projects": [
               "infant-cries-recognition.json",
               "infant-cries-recognition-2.json",
               "vibration-data-1.json",
