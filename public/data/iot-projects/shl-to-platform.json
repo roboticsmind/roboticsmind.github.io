@@ -4,15 +4,15 @@
   "illustration": "/public/data/iot-projects/extended-shl.png",
   "descr": "",
   "links": {
-	  "PDF": "https://github.com/Mohaabenz/DataLogger/blob/master/report.pdf",
+	  "PDF": "https://github.com/institut-galilee/DataLogger/blob/master/Report.md",
 	  "Slides": "",
 	  "Video": "",
-	  "Code": "https://github.com/Mohaabenz/DataLogger"
+	  "Code": "https://github.com/institut-galilee/DataLogger"
   },
   "tags": ["ml", "ai"],
   "authors": [
       "Maher Laaroussi",
-      "Mohamed Ben saad",
+      "Mohammed Bensaad",
       "Khalid Barakat"
   ]
 }
