@@ -1,6 +1,23 @@
 {
   "meta": "This file contains meta-information about iot-projects",
   "categories": [
+      {
+          "projects": [
+              "2020-legendary-enigma.json",
+              "2020-SmartHomeJA.json",
+              "2020-potential-eureka.json",
+              "2020-Smart-Lock.json",
+              "2020-Karadik.json",
+              "2020-STORM.json",
+              "2020-FACA.json",
+              "2020-smart-box.json",
+              "2020-WITHER.json",
+              "2020-turbo-guacamole.json",
+              "2020-IotExplorer.json"
+          ],
+          "title": "Institut Galilée -- Master 1 2020"
+      },
+ 
     {
           "projects": [
               "2019-coriolis-effect.json",
@@ -13,7 +30,7 @@
               "2019-nasta.json",
               "2019-power.json"
           ],
-          "title": "Institut Galilée 2019"
+          "title": "Institut Galilée -- Licence 3 2019"
       },
 
       {
@@ -28,25 +45,9 @@
               "2019-peaky-blinders.json",
               "2019-team-of-things.json"
           ],
-          "title": "Efrei 2019"
+          "title": "Efrei -- 4ème Année 2019"
       },
-      {
-          "projects": [
-              "2020-legendary-enigma.json",
-              "2020-SmartHomeJA.json",
-              "2020-potential-eureka.json",
-              "2020-Smart-Lock.json",
-              "2020-Karadik.json",
-              "2020-STORM.json",
-              "2020-FACA.json",
-              "2020-symmetrical-happiness.json",
-              "2020-WITHER.json",
-              "2020-turbo-guacamole.json",
-              "2020-IotExplorer.json"
-          ],
-          "title": "Institut Galilée 2020"
-      },
-      {
+     {
           "projects": [
               "infant-cries-recognition.json",
               "infant-cries-recognition-2.json",

@@ -6,10 +6,12 @@
   "links": {
 	  "PDF": "https://github.com/institut-galilee/2020-FACA/blob/master/doc/report.pdf",
 	  "Slides": "https://github.com/institut-galilee/2020-FACA/blob/master/doc/presentation.pdf",
-	  "Video": "",
+	  "Video": "DdHNMxLVIqY",
 	  "Code": "https://github.com/institut-galilee/2020-FACA/tree/master/src"
   },
   "tags": ["ml", "ai"],
   "authors": [
+      "Adrien CAVALIERI",
+      "Antony FOURCHAULT"
   ]
 }
