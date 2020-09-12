@@ -34,6 +34,48 @@
   "categories": [
     {
       "researches": [
+       {
+          "booktitle": "In proceedings of the ECML-PKDD 2020, September 14-18, 2020.",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Data Generation Process Modeling for Activity Recognition",
+          "links": {
+            "PDF": "",
+            "Slides": "/public/presentations/hamidi2020data.pdf",
+            "Video": ""
+          },
+          "topics": ["ml", "ai"]
+        },
+ 
+       {
+          "booktitle": "In Neurocomputing 2020",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Domain Models for Data Sources Integration in HAR",
+          "links": {
+            "PDF": ""
+          },
+          "topics": ["ml", "ai"]
+        },
+        {
+          "booktitle": "In proceedings of the UbiComp/ISWC 2020 Adjunct, Virtual Event, Mexico, September 12–16, 2020. ACM 2020",
+          "authors": "Massinissa Hamidi and Aomar Osmani and Pegah Alizadeh",
+          "title": "A Multi-View Architecture for the SHL Challenge",
+          "links": {
+            "PDF": "http://www.shl-dataset.org/wp-content/uploads/SHLChallenge2020/short_videos_presentations/06_ubicomp20q-sub1024-cam-i7.pdf",
+            "Slides": "/public/presentations/hamidi2020multi_slides.pdf",
+            "Poster": "/public/presentations/hamidi2020multi_poster.pdf",
+            "Video": "/public/presentations/videos/hamidi2020multi.mp4"
+          },
+          "topics": ["ml", "ai"]
+        },
+        {
+          "booktitle": "In Generalization with Deep Learning: for Improvement on Sensing Capability, 2020",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Combining Domain Knowledge and Deep Learning to Improve HAR Models",
+          "links": {
+            "PDF": ""
+          },
+          "topics": ["har", "ml", "ai"]
+        },
         {
           "booktitle": "In proceedings of the 28th international joint conference on artificial intelligence, IJCAI 2019",
           "authors": "Aomar Osmani and Massinissa Hamidi and Salah Bouhouche",
