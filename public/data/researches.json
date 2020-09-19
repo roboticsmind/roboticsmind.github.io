@@ -39,9 +39,9 @@
           "authors": "Massinissa Hamidi and Aomar Osmani",
           "title": "Data Generation Process Modeling for Activity Recognition",
           "links": {
-            "PDF": "",
+            "PDF": "https://bitbucket.org/ghentdatascience/ecmlpkdd20-papers/raw/master/ADS/sub_901.pdf",
             "Slides": "/public/presentations/hamidi2020data.pdf",
-            "Video": ""
+            "Video": "https://slideslive.com/38932385/data-generation-process-modeling-for-activity-recognition"
           },
           "topics": ["ml", "ai"]
         },
