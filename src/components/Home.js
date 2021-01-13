@@ -9,7 +9,7 @@ const MAX_PUBLICATION_COUNT = 5;
 class Home extends Component {
   getLatestPublications() {
     const { data } = this.props;
-    const works = data.categories.filter(category => category.title === 'Publications')[0].researches;
+    const works = data.categories.filter(category => category.title.startsWith('20'))[0].researches;
     return works.length > MAX_PUBLICATION_COUNT ? works.slice(0, MAX_PUBLICATION_COUNT) : works;
   }
 
