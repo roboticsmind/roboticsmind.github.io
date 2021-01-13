@@ -94,7 +94,7 @@ class Partners extends Component {
         key={i}
         work={work}
         topicMap={topicMap}
-        isLinkVisible={true}
+        isLinkVisible={false}
       />
     ));
     return (

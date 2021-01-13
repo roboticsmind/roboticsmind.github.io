@@ -64,7 +64,7 @@ export default class TeachingWork extends Component {
         )}
       >
         <Link
-          to={{ pathname: '/course/'+work.id }}
+          to={{ pathname: isLinkVisible ? '/course/'+work.id : '' }}
         >
             {work.title} {this.renderTopicTagsItem()}
         </Link>
