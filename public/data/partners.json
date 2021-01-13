@@ -1,0 +1,45 @@
+{
+  "topics": [
+    {
+      "id": "har",
+      "title": "Human Activity Recognition",
+      "tag": "HAR",
+      "color": "#8acb88"
+    }
+  ],
+  "categories": [
+    {
+      "researches": [
+        {
+          "id": "roso",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Koji Kamei (Japan), Takashi Yoshimi (Japan), Abdelghani Chibani (France), Sandro Fiorini (Brazil, IBM)",
+          "title": "RoSo group for OMG submission",
+          "links": {
+          },
+          "topics": ["har"]
+        },
+        {
+          "id": "harms",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Mauricio Gómez (The University of Texas at San Antonio), Abdelghani Chibani (France, Lissi)",
+          "title": "HARMS",
+          "links": {
+          },
+          "topics": ["har"]
+        },
+        {
+          "id": "uncw",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Dogan Gulustan (University of North Carolina at Wilington",
+          "title": "UNCW HAR",
+          "links": {
+            "GitHub": "https://github.com/orgs/uncw-uspn"
+          },
+          "topics": ["har"]
+        }
+      ],
+      "title": "International Academic Collaborations"
+    }
+  ]
+}
