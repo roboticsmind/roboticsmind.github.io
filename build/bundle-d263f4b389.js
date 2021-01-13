@@ -37812,7 +37812,7 @@ var TeachingWork = function (_Component) {
         _react2.default.createElement(
           _reactRouterDom.Link,
           {
-            to: { pathname: '/course/' + work.id }
+            to: { pathname: isLinkVisible ? '/course/' + work.id : '' }
           },
           work.title,
           ' ',
@@ -61188,7 +61188,7 @@ var Partners = function (_Component) {
           key: i,
           work: work,
           topicMap: topicMap,
-          isLinkVisible: true
+          isLinkVisible: false
         });
       });
       return _react2.default.createElement(
