@@ -34,9 +34,18 @@
           "title": "Augmented Experiments in Material Engineering Using Machine Learning",
           "links": {
             "PDF": "/public/research/aaai-2021/osmani2021augmented.pdf",
-            "Slides": "/public/presentations/aaai-2021_20minute.pdf"
+            "Slides": "/public/presentations/2021-aaai_20minute.pdf"
           },
           "topics": ["ml", "ai"]
+        },
+        {
+          "booktitle": "In EGC conference, 2021",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Modélisation du processus de génération de données pour la reconnaissance d'activités",
+          "links": {
+            "PDF": ""
+          },
+          "topics": ["har", "ml", "ai"]
         }
       ],
         "title": "2021"
@@ -97,15 +106,6 @@
           "booktitle": "In Generalization with Deep Learning: for Improvement on Sensing Capability (Book Chapter), 2020",
           "authors": "Massinissa Hamidi and Aomar Osmani",
           "title": "Combining Domain Knowledge and Deep Learning to Improve HAR Models",
-          "links": {
-            "PDF": ""
-          },
-          "topics": ["har", "ml", "ai"]
-        },
-        {
-          "booktitle": "In EGC conference, 2021",
-          "authors": "Massinissa Hamidi and Aomar Osmani",
-          "title": "Modélisation du processus de génération de données pour la reconnaissance d'activités",
           "links": {
             "PDF": ""
           },

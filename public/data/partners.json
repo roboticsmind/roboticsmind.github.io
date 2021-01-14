@@ -12,7 +12,7 @@
       "researches": [
         {
           "id": "roso",
-          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "booktitle": "description",
           "authors": "Koji Kamei (Japan), Takashi Yoshimi (Japan), Abdelghani Chibani (France), Sandro Fiorini (Brazil, IBM)",
           "title": "RoSo group for OMG submission",
           "links": {
@@ -21,7 +21,7 @@
         },
         {
           "id": "harms",
-          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "booktitle": "description",
           "authors": "Mauricio Gómez (The University of Texas at San Antonio), Abdelghani Chibani (France, Lissi)",
           "title": "HARMS",
           "links": {
@@ -30,7 +30,7 @@
         },
         {
           "id": "uncw",
-          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "booktitle": "description",
           "authors": "Dogan Gulustan (University of North Carolina at Wilington",
           "title": "UNCW HAR",
           "links": {
