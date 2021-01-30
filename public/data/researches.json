@@ -43,7 +43,7 @@
           "authors": "Massinissa Hamidi and Aomar Osmani",
           "title": "Modélisation du processus de génération de données pour la reconnaissance d'activités",
           "links": {
-            "PDF": ""
+            "PDF": "https://editions-rnti.fr/?inprocid=1002673"
           },
           "topics": ["har", "ml", "ai"]
         }
@@ -86,7 +86,7 @@
           "authors": "Pegah Alizadeh, Aomar Osmani, Mohamed Essaid Khanouche, Abdelghani Chibani, Yacine Amirat",
           "title": "Reinforcement Learning for Interactive QoS-Aware Services Composition",
           "links": {
-            "PDF": ""
+            "PDF": "https://ieeexplore.ieee.org/document/9110736"
           },
           "topics": ["ml", "ai"]
         },
