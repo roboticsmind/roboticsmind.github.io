@@ -38,6 +38,16 @@
           },
           "topics": ["ml", "ai"]
         },
+       {
+          "booktitle": "In proceedings of the PAKDD conference 2021, May 11-14, 2021, Delhi, India.",
+          "authors": "Aomar Osmani, Massinissa Hamidi, and Pegah Alizadeh",
+          "title": "Hierarchical Learning of Dependent Concepts for Human Activity Recognition",
+          "links": {
+            "PDF": "/public/research/pakdd-2021/osmani2021hierarchical.pdf",
+            "Suppl.": "/public/research/pakdd-2021/osmani2021hierarchical_supplementary.pdf"
+          },
+          "topics": ["ml", "ai"]
+        },
         {
           "booktitle": "In EGC conference, 2021",
           "authors": "Massinissa Hamidi and Aomar Osmani",
