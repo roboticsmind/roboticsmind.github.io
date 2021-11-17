@@ -34,7 +34,8 @@
           "title": "Augmented Experiments in Material Engineering Using Machine Learning",
           "links": {
             "PDF": "/public/research/aaai-2021/osmani2021augmented.pdf",
-            "Slides": "/public/presentations/2021-aaai_20minute.pdf"
+            "Slides": "/public/presentations/2021-aaai_20minute.pdf",
+            "Video": "https://slideslive.com/38948587/augmented-experiments-in-material-engineering-using-machine-learning"
           },
           "topics": ["ml", "ai"]
         },
@@ -44,7 +45,9 @@
           "title": "Hierarchical Learning of Dependent Concepts for Human Activity Recognition",
           "links": {
             "PDF": "/public/research/pakdd-2021/osmani2021hierarchical.pdf",
-            "Suppl.": "/public/research/pakdd-2021/osmani2021hierarchical_supplementary.pdf"
+            "Suppl.": "/public/research/pakdd-2021/osmani2021hierarchical_supplementary.pdf",
+            "Slides": "/public/presentations/2021-pakdd_slides.pdf",
+            "Video": "/public/presentations/videos/2021-pakdd_presentation.mp4"
           },
           "topics": ["ml", "ai"]
         },
@@ -242,14 +245,6 @@
           "topics": ["har", "ml"]
         },
         {
-          "booktitle": "PAKDD conference, 2021",
-          "authors": "Aomar Osmani, Massinissa Hamidi, Pegah Alizadeh",
-          "title": "Hierarchical Learning of Dependent Concepts for Human Activity Recognition",
-          "links": {
-          },
-          "topics": ["har", "ml"]
-        },
-        {
           "booktitle": "AISTATS conference, 2021",
           "authors": "Ali Modaresi, Aomar Osmani, M.R. Razzazi et Abdelghani Chibani",
           "title": "Uniform Evaluation of Features in Activity Recognition",
@@ -286,6 +281,15 @@
     },
     {
       "researches": [
+        {
+          "booktitle": "In MAARS Seminar, LIPN, Sorbonne Paris Nord, April 22nd, 2021.",
+          "authors": "Massinissa Hamidi",
+          "title": "Quelques problèmes d'apprentissage dans le cadre de l'internet des objets",
+          "links": {
+            "Slides": "./public/presentations/2021-04-22_MAARS-Seminar.pdf"
+          },
+          "topics": ["ml"]
+        },
         {
           "booktitle": "In ECML-PKDD conference, Gent Belgium, September 17th, 2020.",
           "authors": "Massinissa Hamidi",

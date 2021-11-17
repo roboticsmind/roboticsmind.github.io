@@ -2,6 +2,8 @@
 
 ## Prerequisities
 
+`node v11.15.0`
+
 
 In order to run this container you'll need docker installed.
 
