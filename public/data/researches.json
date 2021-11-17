@@ -40,6 +40,15 @@
           "topics": ["ml", "ai"]
         },
        {
+          "booktitle": "Sensors Journal",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Human Activity Recognition: a Dynamic Inductive Bias Selection Perspective",
+          "links": {
+              "PDF": "https://www.mdpi.com/1424-8220/21/21/7278"
+          },
+          "topics": ["har", "ml"]
+        },
+       {
           "booktitle": "In proceedings of the PAKDD conference 2021, May 11-14, 2021, Delhi, India.",
           "authors": "Aomar Osmani, Massinissa Hamidi, and Pegah Alizadeh",
           "title": "Hierarchical Learning of Dependent Concepts for Human Activity Recognition",
@@ -236,14 +245,6 @@
     },
     {
       "researches": [
-        {
-          "booktitle": "Sensors Journal",
-          "authors": "Massinissa Hamidi and Aomar Osmani",
-          "title": "Human Activity Recognition: a Dynamic Inductive Bias Selection Perspective",
-          "links": {
-          },
-          "topics": ["har", "ml"]
-        },
         {
           "booktitle": "AISTATS conference, 2021",
           "authors": "Ali Modaresi, Aomar Osmani, M.R. Razzazi et Abdelghani Chibani",
