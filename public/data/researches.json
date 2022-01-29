@@ -29,24 +29,46 @@
     {
       "researches": [
        {
+          "booktitle": "In proceedings of the AAAI conference 2022, February 22 - March 1, 2021.",
+          "authors": "Aomar Osmani, Massinissa Hamidi, and Pegah Alizadeh",
+          "title": "Clustering Approach to Solve Hierarchical Classification Problem Complexity",
+          "links": {
+          },
+          "topics": ["har", "dk"]
+        },
+       {
+          "booktitle": "In proceedings of the PAKDD conference 2022, May 16-19, 2022, Chengdu, China.",
+          "authors": "Aomar Osmani, Massinissa Hamidi",
+          "title": "Reduction of the Position Bias via Multi-Level Learning for Activity Recognition",
+          "links": {
+          },
+          "topics": ["har", "dk"]
+        }
+      ],
+        "title": "2022"
+    },
+    {
+      "researches": [
+       {
           "booktitle": "In proceedings of the AAAI conference 2021, February 2-9, 2021.",
           "authors": "Aomar Osmani, Massinissa Hamidi, and Salah Bouhouche",
           "title": "Augmented Experiments in Material Engineering Using Machine Learning",
           "links": {
             "PDF": "/public/research/aaai-2021/osmani2021augmented.pdf",
             "Slides": "/public/presentations/2021-aaai_20minute.pdf",
+            "Poster": "research/aaai-2021/osmani2021augmented.pdf",
             "Video": "https://slideslive.com/38948587/augmented-experiments-in-material-engineering-using-machine-learning"
           },
           "topics": ["ml", "ai"]
         },
-       {
-          "booktitle": "Sensors Journal",
+        {
+          "booktitle": "Sensors Journal 2021, 21(21)",
           "authors": "Massinissa Hamidi and Aomar Osmani",
           "title": "Human Activity Recognition: a Dynamic Inductive Bias Selection Perspective",
           "links": {
-              "PDF": "https://www.mdpi.com/1424-8220/21/21/7278"
+            "PDF": "https://mdpi-res.com/d_attachment/sensors/sensors-21-07278/article_deploy/sensors-21-07278-v2.pdf"
           },
-          "topics": ["har", "ml"]
+          "topics": ["har"]
         },
        {
           "booktitle": "In proceedings of the PAKDD conference 2021, May 11-14, 2021, Delhi, India.",
@@ -56,7 +78,7 @@
             "PDF": "/public/research/pakdd-2021/osmani2021hierarchical.pdf",
             "Suppl.": "/public/research/pakdd-2021/osmani2021hierarchical_supplementary.pdf",
             "Slides": "/public/presentations/2021-pakdd_slides.pdf",
-            "Video": "/public/presentations/videos/2021-pakdd_presentation.mp4"
+            "Video": "https://www.youtube.com/watch?v=_OAFJaCMTLg"
           },
           "topics": ["ml", "ai"]
         },
