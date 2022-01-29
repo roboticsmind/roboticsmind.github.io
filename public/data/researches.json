@@ -29,7 +29,7 @@
     {
       "researches": [
        {
-          "booktitle": "In proceedings of the AAAI conference 2022, February 22 - March 1, 2021.",
+          "booktitle": "In proceedings of the AAAI conference 2022, February 22 - March 1, 2022.",
           "authors": "Aomar Osmani, Massinissa Hamidi, and Pegah Alizadeh",
           "title": "Clustering Approach to Solve Hierarchical Classification Problem Complexity",
           "links": {
@@ -56,7 +56,7 @@
           "links": {
             "PDF": "/public/research/aaai-2021/osmani2021augmented.pdf",
             "Slides": "/public/presentations/2021-aaai_20minute.pdf",
-            "Poster": "research/aaai-2021/osmani2021augmented.pdf",
+            "Poster": "research/aaai-2021/osmani2021augmented_poster.pdf",
             "Video": "https://slideslive.com/38948587/augmented-experiments-in-material-engineering-using-machine-learning"
           },
           "topics": ["ml", "ai"]
