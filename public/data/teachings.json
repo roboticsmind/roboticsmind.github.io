@@ -41,7 +41,7 @@
           "title": "Machine Learning et IoT",
           "links": {
             "Projects": "/project/gal-m2-19-20",
-            "GitHub": "https://github.com/institut-galilee/repositories?q=m2+2022+NOT+lab+NOT+project"
+            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=m2+2022+NOT+lab+NOT+project"
           },
           "topics": ["gal", "m2"]
         }
@@ -57,7 +57,7 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project",
-            "GitHub": "https://github.com/institut-galilee/repositories?q=l3+2021"
+            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=l3+2021"
           },
           "topics": ["gal", "l3"]
         },
@@ -68,7 +68,7 @@
           "title": "Machine Learning et IoT",
           "links": {
             "Projects": "/project/gal-m2-19-20",
-            "GitHub": "https://github.com/institut-galilee/repositories?q=m2+2021+NOT+lab+NOT+project"
+            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=m2+2021+NOT+lab+NOT+project"
           },
           "topics": ["gal", "m2"]
         },
@@ -79,7 +79,7 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project/efr-m1-19-20",
-            "GitHub": "https://github.com/efrei-paris-sud/repositories?q=m1+2021"
+            "GitHub": "https://github.com/orgs/efrei-paris-sud/repositories?q=m1+2021"
           },
           "topics": ["efr", "m1"]
         }
@@ -95,7 +95,7 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project",
-            "GitHub": "https://github.com/institut-galilee/"
+            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=m1+2020"
           },
           "topics": ["gal", "l3"]
         },
@@ -106,7 +106,7 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project",
-            "GitHub": "https://github.com/institut-galilee/"
+            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=m1+2020"
           },
           "topics": ["gal", "m1"]
         },
@@ -117,7 +117,7 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project/efr-m1-19-20",
-            "GitHub": "https://github.com/efrei-paris-sud"
+            "GitHub": "https://github.com/orgs/efrei-paris-sud/repositories?q=m1+2020"
           },
           "topics": ["efr", "m1"]
         }
@@ -133,7 +133,7 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project/gal-m1-18-19",
-            "GitHub": "https://github.com/institut-galilee/"
+            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=m1+2019"
           },
           "topics": ["gal", "m1"]
         },
@@ -144,7 +144,7 @@
           "title": "Internet of Things",
           "links": {
             "Projects": "/project/efr-m1-18-19",
-            "GitHub": "https://github.com/efrei-paris-sud"
+            "GitHub": "https://github.com/orgs/efrei-paris-sud/repositories?q=m1+2019"
           },
           "topics": ["efr", "m1"]
         }
@@ -160,7 +160,7 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project/gal-m1-17-18",
-            "GitHub": "https://github.com/institut-galilee/"
+            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=m1+2018"
           },
           "topics": ["gal", "m1"]
         },
@@ -171,17 +171,12 @@
           "title": "Internet of Things",
           "links": {
             "Projects": "project/efr-m1-17-18",
-            "GitHub": "https://github.com/efrei-paris-sud"
+            "GitHub": "https://github.com/orgs/efrei-paris-sud/repositories?q=m1+2018"
           },
           "topics": ["efr", "m1"]
         }
      ],
       "title": "2017-2018"
     },
-    {
-      "researches": [
-      ],
-      "title": "Misc"
-    }
   ]
 }
