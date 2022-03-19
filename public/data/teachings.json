@@ -36,7 +36,7 @@
       "researches": [
         {
           "id": "gal-m2-21-22",
-          "booktitle": "À l'interface entre Mahine learning et Internet des Objets",
+          "booktitle": "À l'interface entre Machine learning et Internet des Objets",
           "authors": "Aomar Osmani and Massinissa Hamidi",
           "title": "Machine Learning et IoT",
           "links": {
@@ -57,13 +57,13 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project",
-            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=l3+2021"
+            "GitHub": "https://github.com/orgs/institut-galilee/repositories?q=l3"
           },
           "topics": ["gal", "l3"]
         },
         {
           "id": "gal-m2-20-21",
-          "booktitle": "À l'interface entre Mahine learning et Internet des Objets",
+          "booktitle": "À l'interface entre Machine learning et Internet des Objets",
           "authors": "Aomar Osmani and Massinissa Hamidi",
           "title": "Machine Learning et IoT",
           "links": {
@@ -79,7 +79,7 @@
           "title": "Introduction à l'internet des objets",
           "links": {
             "Projects": "/project/efr-m1-19-20",
-            "GitHub": "https://github.com/orgs/efrei-paris-sud/repositories?q=m1+2021"
+            "GitHub": "https://github.com/orgs/efrei-paris-sud/repositories?q=m1"
           },
           "topics": ["efr", "m1"]
         }
