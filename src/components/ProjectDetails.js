@@ -6,6 +6,9 @@ import DataLoader from './DataLoader';
 //import ReactMarkdown from 'react-markdown';
 import ReactMarkdown from 'react-markdown/with-html'
 
+import TableOfContents from '../components/tableOfContents';
+import ReactDOM from 'react-dom';
+
 // const DATA_URL = '/public/data/iot-projects/guessless.json';
 
 class ProjectDetails extends Component {
@@ -16,6 +19,13 @@ class ProjectDetails extends Component {
       eventAction: 'click',
       eventLabel: eventLabel
     });
+  }
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      tableOfContents: <TableOfContents />
+    }
   }
 
   // componentWillMount() {
@@ -58,6 +68,8 @@ class ProjectDetails extends Component {
       </div>
     );
   }
+
+
 
   render() {
     const { 
@@ -188,12 +200,24 @@ class ProjectDetails extends Component {
     ) : null;
 
     // const { markdown } = this.props.markdown
+    const generateId = () => {
+      let i = 0;
+      return (prefix = '') => {
+        i += 1;
+        return `${prefix}-${i}`;
+      };
+    };
     const descr = (
         <ReactMarkdown
             source={markdown} 
             escapeHtml={false}
+            components={{
+              h2: 'h1',
+              //h1: ({node, ...props}) => <h2 className={{generateId}} {...props} />
+            }}
         />
     );
+    
 
     return (
       <div className='c-project-details'>
@@ -210,11 +234,18 @@ class ProjectDetails extends Component {
             {videoItem}
           </div>
         </div>
-        <div className='c-project-details__description'>
+        <div>
+          <TableOfContents />
+          <div className='c-project-details__description'>
+            <h2 id="abstract">Abstract</h2>
             {abstractItem}
-            {hardwareItem}
-            {softwareItem}
+            <h2 id="description">Description</h2>
             {descr}
+            <h2 id="hardware">Hardware</h2>
+            {hardwareItem}
+            <h2 id="software">Software</h2>
+            {softwareItem}
+          </div>
         </div>
       </div>
     );
