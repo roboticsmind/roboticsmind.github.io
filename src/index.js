@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { Route, HashRouter as Router } from 'react-router-dom';
 import './style/index.scss';
 import './lib/ga';
 import 'isomorphic-fetch';
