@@ -1,10 +1,40 @@
 nav {
-  float:right;
-  position: sticky;
-  position: -webkit-sticky; /* For Safari */
-  top: 24px; /* How far down the page you want your ToC to live */
+    float:right;
+    position: sticky;
+    position: -webkit-sticky; /* For Safari */
+    top: 24px; /* How far down the page you want your ToC to live */
+    
+    /* Give table of contents a scrollbar */
+    max-height: calc(100vh - 40px);
+    overflow: hidden;
 
-  /* Give table of contents a scrollbar */
-  max-height: calc(100vh - 40px);
-  overflow: hidden;
+    li {
+        list-style: none;
+    }
+
+    a {
+      color: rgb(160, 160, 160);
+      text-decoration: none;
+    }
+
+    li.active > a {
+      color: rgb(0, 0, 0);
+    }
+
+    li > a:hover {
+      color: rgb(0, 0, 0);
+    }
+
+    h2, h3 {
+        scroll-margin-top: 16px;
+    }
+
+    /* Safari-only */
+    @supports (-webkit-hyphens:none) {
+        h2, h3 {
+            padding-top: 16px;
+            margin-top: -16px;
+        }
+    }
+
 }

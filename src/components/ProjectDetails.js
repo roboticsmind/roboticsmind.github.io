@@ -1,5 +1,5 @@
 import classnames from 'classnames';
-import React, { Component } from 'react'
+import React, { useRef, useEffect, Component } from 'react'
 import { Link } from 'react-router-dom';
 import YouTube from 'react-youtube';
 import DataLoader from './DataLoader';
@@ -7,7 +7,6 @@ import DataLoader from './DataLoader';
 import ReactMarkdown from 'react-markdown/with-html'
 
 import TableOfContents from '../components/tableOfContents';
-import ReactDOM from 'react-dom';
 
 // const DATA_URL = '/public/data/iot-projects/guessless.json';
 
@@ -19,13 +18,6 @@ class ProjectDetails extends Component {
       eventAction: 'click',
       eventLabel: eventLabel
     });
-  }
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      tableOfContents: <TableOfContents />
-    }
   }
 
   // componentWillMount() {
@@ -76,6 +68,7 @@ class ProjectDetails extends Component {
       data, 
       markdown,
       isLinkVisible=true, 
+      toc,
     } = this.props;
 
     const work = data
@@ -212,12 +205,31 @@ class ProjectDetails extends Component {
             source={markdown} 
             escapeHtml={false}
             components={{
-              h2: 'h1',
+              h2: 'h1', // TODO: mapping from h2 elements to h1 elements is not working
               //h1: ({node, ...props}) => <h2 className={{generateId}} {...props} />
             }}
         />
     );
+
+    console.log("reactmarkdown:", descr);
+
     
+
+
+
+    // Initialized a hook to hold the reference to the title div.
+    //const toc = useRef();
+  
+    //useEffect(function () {
+    //  setTimeout(() => {
+    //    toc.current.textContent = <TableOfContents />
+    //  }, 2000); // Update the content of the element after 2seconds
+    //}, []);
+
+
+
+
+
 
     return (
       <div className='c-project-details'>
@@ -252,9 +264,42 @@ class ProjectDetails extends Component {
   }
 }
 
+
 export default (...props) => {
   const DATA_URL = '/public/data/iot-projects/' + props[0].match.params.projectId + '.json'
   const MARKDOWN_URL = '/public/data/iot-projects/' + props[0].match.params.projectId + '.md'
+
+    //const descr = (
+    //    <ReactMarkdown
+    //        source={MARKDOWN_URL} 
+    //        escapeHtml={false}
+    //        components={{
+    //          h2: 'h1', // TODO: mapping from h2 elements to h1 elements is not working
+    //          //h1: ({node, ...props}) => <h2 className={{generateId}} {...props} />
+    //        }}
+    //    />
+    //);
+
+    //console.log("reactmarkdown:", descr);
+  
+
+    // Initialized a hook to hold the reference to the title div.
+    //const toc = useRef({});
+  
+    //useEffect(() => {
+    //  setTimeout(() => {
+    //    console.log("hello")
+    //    toc.current = <TableOfContents />
+    //    console.log(toc.current)
+    //  }, 4000); // Update the content of the element after 2seconds
+    //}, []);
+
+
+
+
+
+
+ 
   return (
     <div className="c-project-details">
     <DataLoader json={DATA_URL} markdown={MARKDOWN_URL}>
