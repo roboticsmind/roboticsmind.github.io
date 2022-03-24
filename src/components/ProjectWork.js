@@ -50,7 +50,7 @@ export default class ProjectWork extends Component {
     const linkItems = isLinkVisible ? Object.keys(links).map((key, i) => (
       <a
         key={key}
-        href={links[key]}
+        href={ key==="Video" ? `https://www.youtube.com/watch?v=${links[key]}` : links[key]}
         className={classnames(
             "u-links__link",
             links[key] == "" ? "u-links__inactive" : "u-links__active"
